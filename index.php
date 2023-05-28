@@ -13,8 +13,10 @@
 
     <!-- Navbar -->
     <nav>
-        <div class="navbar-logo">
-            <p>Kucra</p>
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <h1>Kucra</h1>
+            </div>
         </div>
         <div class="navbar-links">
             <ul>

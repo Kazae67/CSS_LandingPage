@@ -27,14 +27,13 @@ body {
     z-index: 999;
     background-color: transparent;
     padding: 10px 30px; /* Ajoutez un espace autour du logo si nécessaire */
-
-  }
+}
   
-  .logo-container h1 {
+.logo-container h1 {
     color:white;
     font-size: 35px; /* Ajustez la taille du logo selon vos besoins */
     margin: 0; /* Supprimez les marges pour le positionnement précis */
-  }
+}
 
 /* H1 */
 h1 {
@@ -42,6 +41,19 @@ h1 {
     font-weight: 900;
     color: rgb(56, 56, 56);
     margin-bottom: 10px;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+  }
+  
+.social-icons li {
+    margin-right: 10px;
+}
+  
+.social-icons a {
+    text-decoration: none;
 }
 
 /* Paragraphe */
@@ -61,7 +73,7 @@ p {
 .email-container {
     position: relative; 
     display: inline-block; 
-  }
+}
 
 input[type="email"] {
     padding: 10px;

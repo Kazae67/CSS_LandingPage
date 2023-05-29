@@ -1,52 +1,145 @@
-body, ul {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-
-nav {
+/* Body*/
+body {
+    font-family: 'Poppins', sans-serif;
     background-color: #f2f2f2;
-    padding: 10px;
 }
 
-.navbar-container {
+/* Contenair */
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 960px;
+    max-width: 925px;
     margin: 0 auto;
+    padding: 32px;
 }
 
-.navbar-logo {
-    font-weight: bold;
-    margin-right: 0;
-    margin-left: 150px;
+/* H1 */
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(56, 56, 56);
+    margin-bottom: 10px;
 }
 
-.navbar-logo h1 {
-    font-size: 24px;
-    margin: 0;
+/* Paragraphe */
+p {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
 }
 
+/* Email */
+.email-form {
+    display: flex;
+    align-items: center;
+}
 
+input[type="email"] {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
 
-.navbar-links ul {
+button {
+    padding: 10px 20px;
+    background-color: #1294b8;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Section */
+.section {
+    padding: 80px 0;
+    height: 100vh;
+}
+
+/* Home */
+#home {
+    background: linear-gradient(to bottom, rgb(139, 195, 245), #1294b8);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.nav-links {
     list-style: none;
     display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
 }
 
-.navbar-links li {
-    margin-right: 15px;
+.nav-links li {
+    margin-right: 10px;
 }
 
-.navbar-links li a {
-    color: #333;
+.nav-links a {
     text-decoration: none;
+    color: #fff;
+    padding: 5px;
 }
 
-.navbar-links li a:hover {
-    color: #000;
+/* Conteneurs gauche et droite */
+.left-container,
+.right-container {
+    width: 36%;
+}
+
+.left-container {
+    width: 70%;
+    padding-right: 50px;
+}
+
+.right-container {
+    margin: -50px;
+    width: 75%; /* largeur*/
+    padding-left: 0px; /* rembourrage gauche */
+}
+
+/* Media query pour les écrans de petite taille */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .left-container,
+    .right-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .navbar {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .nav-links li {
+        margin-bottom: 10px;
+    }
 }

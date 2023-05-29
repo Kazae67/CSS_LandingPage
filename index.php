@@ -1,33 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Landing Page PDO</title>
 </head>
 <body>
-    <!-- Accueil-->
-
-    <!-- Navbar -->
-    <nav>
-        <div class="navbar-logo">
-            <h1>Kucra</h1>
-        </div>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">FEATURES</a></li>
-                <li><a href="#">CLIENT</a></li>
-                <li><a href="#pricing-section">PRICING</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </div>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <!-- logo -->
+        <h1>Kucra</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#features">FEATURES</a></li>
+        <li><a href="#client">CLIENT</a></li>
+        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div class="social-icons">
+        <!-- icons -->
+      </div>
     </nav>
+  </header>
+
+  <section id="home" class="section">
+    <div class="container">
+      <div class="left-container">
+        <h1>We are StartUp Creative Kucra Agency</h1>
+        <p>Carefully crafted after analyzing the needs of different industries, and the design achieves a great balance between purpose & presentation.</p>
+        <form class="email-form" action="" method="post">
+          <input type="email" name="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="right-container">
+        <img src="img/illustration.svg" alt="Chat Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Les autres sections à venir -->
+
 </body>
 </html>

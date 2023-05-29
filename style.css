@@ -26,13 +26,13 @@ body {
     left: 150px;
     z-index: 999;
     background-color: transparent;
-    padding: 10px 30px; /* Ajoutez un espace autour du logo si nécessaire */
+    padding: 10px 30px;
 }
   
 .logo-container h1 {
     color:white;
-    font-size: 35px; /* Ajustez la taille du logo selon vos besoins */
-    margin: 0; /* Supprimez les marges pour le positionnement précis */
+    font-size: 35px; 
+    margin: 0;
 }
 
 /* H1 */
@@ -43,16 +43,21 @@ h1 {
     margin-bottom: 10px;
 }
 
-.social-icons {
-    list-style: none;
-    display: flex;
-  }
-  
-.social-icons li {
-    margin-right: 10px;
+.social-container {
+    position: fixed;
+    top: 40px;
+    right: calc(20% + 0px);
+    transform: translateX(100%); 
+    text-decoration:none;
 }
-  
-.social-icons a {
+
+.social-container li {
+    margin-right: 10px;
+    text-decoration:none;
+    display: inline-block;
+}
+
+.social-container a {
     text-decoration: none;
 }
 
@@ -136,7 +141,6 @@ button:hover {
     font-weight: bold; 
 
 }
-
 
 .nav-links {
     list-style: none;
@@ -247,6 +251,39 @@ button:hover {
   
     .logo-container h1 {
       font-size: 20px;
+    }
+  }
+
+  /* Icones */
+  @media screen and (max-width: 1700px) {
+    .social-container {
+      position: absolute;
+      top: 40px;
+      left: 0px;
+      right:135px;
+    }
+  }
+
+@media screen and (max-width: 1300px) {
+    .social-container {
+      position: absolute;
+      top: 40px;
+      left: 0px;
+      right:135px;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .social-container {
+      position: static;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+    }
+    
+    .social-container li {
+      margin-right: 5px;
     }
   }
 

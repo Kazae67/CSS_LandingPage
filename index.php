@@ -23,11 +23,11 @@
         <li><a href="#blog">BLOG</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
-      <ul class="social-icons">
-        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      </ul>
+<ul class="social-icons social-container">
+    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+</ul>
     </nav>
   </header>
 

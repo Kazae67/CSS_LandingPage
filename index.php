@@ -29,8 +29,10 @@
         <h1>We are StartUp Creative Kucra Agency</h1>
         <p>Carefully crafted after analyzing the needs of different industries, and the design achieves a great balance between purpose & presentation.</p>
         <form class="email-form" action="" method="post">
-          <input type="email" name="email" placeholder="Enter your email" required>
-          <button type="submit">Subscribe</button>
+        <div class="email-container">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">SUBSCRIBE</button>
+        </div>
         </form>
       </div>
       <div class="right-container">

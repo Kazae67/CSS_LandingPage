@@ -37,14 +37,23 @@ p {
 
 /* Email */
 .email-form {
+    position: relative;
     display: flex;
     align-items: center;
 }
 
+.email-container {
+    position: relative; 
+    display: inline-block; 
+  }
+
 input[type="email"] {
     padding: 10px;
-    border-radius: 5px 0 0 5px;
-    border: none;
+    border:none;
+    border-radius: 30px 30px 30px 30px;
+    padding-right: 100px; 
+    width: 135%; 
+    height: 55px; 
 }
 
 button {
@@ -52,8 +61,15 @@ button {
     background-color: #1294b8;
     color: #fff;
     border: none;
-    border-radius: 0 5px 5px 0;
+    font-weight: 600;
+    border-radius: 20px 20px 20px 20px;
     cursor: pointer;
+    position: absolute; 
+    top: 5px;
+    height: 80%; 
+    width:45%;
+    transform: translateX(194%); /* Centrer horizontalement */
+    
 }
 
 
@@ -65,7 +81,7 @@ button {
 
 /* Home */
 #home {
-    background: linear-gradient(to bottom, rgb(139, 195, 245), #1294b8);
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
     background-attachment: fixed;
     background-position: top;
     background-size: cover;

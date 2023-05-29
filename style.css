@@ -1,16 +1,17 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f2f2f2;
 }
 
-/* Container */
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -20,6 +21,7 @@ body {
     padding: 32px;
 }
 
+
 .logo-container {
     position: absolute;
     top: 10px;
@@ -28,102 +30,20 @@ body {
     background-color: transparent;
     padding: 10px 30px;
 }
-  
+
 .logo-container h1 {
-    color:white;
+    color: white;
     font-size: 35px; 
     margin: 0;
 }
 
-/* H1 */
-h1 {
-    font-size: 40px;
-    font-weight: 900;
-    color: rgb(56, 56, 56);
-    margin-bottom: 10px;
-}
 
-.social-container {
-    position: fixed;
-    top: 40px;
-    right: calc(20% + 0px);
-    transform: translateX(100%); 
-    text-decoration:none;
-}
-
-.social-container li {
-    margin-right: 10px;
-    text-decoration:none;
-    display: inline-block;
-}
-
-.social-container a {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.5s ease; 
-}
-
-.social-container a:hover {
-    color: rgba(255, 255, 255, 0.671); 
-    /* text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8);  EFFET COOL MAIS RIEN A FAIRE ICI*/
-  }
-/* Paragraphe */
-p {
-    font-size: 18px;
-    color: #000000ab;
-    margin-bottom: 20px;
-}
-
-/* Email */
-.email-form {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.email-container {
-    position: relative; 
-    display: inline-block; 
-}
-
-input[type="email"] {
-    padding: 10px;
-    border:none;
-    outline:none;
-    border-radius: 30px 30px 30px 30px;
-    padding-right: 100px; 
-    width: 135%; 
-    height: 55px; 
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #1294b8;
-    color: #fff;
-    border: none;
-    font-weight: 600;
-    border-radius: 20px 20px 20px 20px;
-    cursor: pointer;
-    position: absolute; 
-    top: 5px;
-    height: 80%; 
-    width:45%;
-    transform: translateX(194%); 
-    transition: background-color 0.3s ease; 
-    
-}
-button:hover {
-    background-color: #1294b8c4; 
-}
-
-
-/* Section */
 .section {
     padding: 80px 0;
     height: 100vh;
 }
 
-/* Home */
+
 #home {
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     background-attachment: fixed;
@@ -131,7 +51,7 @@ button:hover {
     background-size: cover;
 }
 
-/* Navbar */
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -143,9 +63,8 @@ button:hover {
     left: 0;
     right: 0;
     z-index: 999;
-    height: 100px; 
+    height: 100px;
     font-weight: bold; 
-
 }
 
 .nav-links {
@@ -164,11 +83,12 @@ button:hover {
     letter-spacing: 1px;
     transition: color 0.5s ease; 
 }
+
 .nav-links a:hover {
     color: rgba(255, 255, 255, 0.671); 
 }
 
-/* Conteneurs gauche et droite */
+
 .left-container,
 .right-container {
     width: 100%;
@@ -181,7 +101,7 @@ button:hover {
 
 .right-container {
     padding-left: 0px;
-    margin-left:auto;
+    margin-left: auto;
 }
 
 .right-container img {
@@ -190,7 +110,89 @@ button:hover {
     height: 600px; 
 }
 
-/* Media query pour les écrans de petite taille */
+
+.social-container {
+    position: fixed;
+    top: 40px;
+    right: calc(20% + 0px);
+    transform: translateX(100%); 
+    text-decoration: none;
+}
+
+.social-container li {
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social-container a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.5s ease; 
+}
+
+.social-container a:hover {
+    color: rgba(255, 255, 255, 0.671); 
+}
+
+
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #000000ab;
+    margin-bottom: 20px;
+}
+
+.email-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.email-container {
+    position: relative; 
+    display: inline-block; 
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px 30px 30px 30px;
+    padding-right: 100px; 
+    width: 135%; 
+    height: 55px; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1294b8;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    position: absolute; 
+    top: 5px;
+    height: 80%; 
+    width: 45%;
+    transform: translateX(194%); 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #1294b8c4; 
+}
+
+
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -218,78 +220,59 @@ button:hover {
     }
 }
 
-/* Logo */
 @media screen and (max-width: 1700px) {
     .logo-container {
-      position: absolute;
-      top: 10px;
-      left: -15px;
-      right:0px;
+        position: absolute;
+        top: 10px;
+        left: -15px;
+        right: 0px;
     }
-  }
+
+    .social-container {
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        right: 135px;
+    }
+}
 
 @media screen and (max-width: 1300px) {
     .logo-container {
-      position: absolute;
-      top: 10px;
-      left: -15px;
-      right:0px;
+        position: absolute;
+        top: 10px;
+        left: -15px;
+        right: 0px;
     }
-  }
-  
-  @media screen and (max-width: 768px) {
+
+    .social-container {
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        right: 135px;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .logo-container {
-      top: 5px;
-      right: 5px;
+        top: 5px;
+        right: 5px;
+        padding: 10px;
     }
-  
+
     .logo-container h1 {
-      font-size: 24px;
+        font-size: 20px;
     }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .logo-container {
-      top: 5px;
-      right: 5px;
-      padding: 10px;
-    }
-  
-    .logo-container h1 {
-      font-size: 20px;
-    }
-  }
+}
 
-  /* Icones */
-  @media screen and (max-width: 1700px) {
+@media screen and (max-width: 768px) {
     .social-container {
-      position: absolute;
-      top: 40px;
-      left: 0px;
-      right:135px;
+        position: static;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
     }
-  }
 
-@media screen and (max-width: 1300px) {
-    .social-container {
-      position: absolute;
-      top: 40px;
-      left: 0px;
-      right:135px;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .social-container {
-      position: static;
-      display: flex;
-      justify-content: flex-end;
-      margin-top: 20px;
-    }
-    
     .social-container li {
-      margin-right: 5px;
+        margin-right: 5px;
     }
-  }
-
+}

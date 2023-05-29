@@ -9,7 +9,10 @@
 </head>
 <body>
   <header>
-    <nav class="navbar">  
+  <div class="logo-container">
+    <h1>Kucra</h1> <!-- Logo "Kucra" -->
+  </div>
+    <nav class="navbar"> 
       <ul class="nav-links">
         <li><a href="#home">HOME</a></li>
         <li><a href="#features">FEATURES</a></li>

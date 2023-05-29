@@ -20,6 +20,22 @@ body {
     padding: 32px;
 }
 
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    z-index: 999;
+    background-color: transparent;
+    padding: 10px 30px; /* Ajoutez un espace autour du logo si nécessaire */
+
+  }
+  
+  .logo-container h1 {
+    color:white;
+    font-size: 35px; /* Ajustez la taille du logo selon vos besoins */
+    margin: 0; /* Supprimez les marges pour le positionnement précis */
+  }
+
 /* H1 */
 h1 {
     font-size: 40px;
@@ -50,6 +66,7 @@ p {
 input[type="email"] {
     padding: 10px;
     border:none;
+    outline:none;
     border-radius: 30px 30px 30px 30px;
     padding-right: 100px; 
     width: 135%; 
@@ -178,3 +195,46 @@ button:hover {
         margin-bottom: 10px;
     }
 }
+
+/* Logo */
+@media screen and (max-width: 1700px) {
+    .logo-container {
+      position: absolute;
+      top: 10px;
+      left: -15px;
+      right:0px;
+    }
+  }
+
+@media screen and (max-width: 1300px) {
+    .logo-container {
+      position: absolute;
+      top: 10px;
+      left: -15px;
+      right:0px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .logo-container {
+      top: 5px;
+      right: 5px;
+    }
+  
+    .logo-container h1 {
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logo-container {
+      top: 5px;
+      right: 5px;
+      padding: 10px;
+    }
+  
+    .logo-container h1 {
+      font-size: 20px;
+    }
+  }
+

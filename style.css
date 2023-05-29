@@ -59,8 +59,14 @@ h1 {
 
 .social-container a {
     text-decoration: none;
+    color: #fff;
+    transition: color 0.5s ease; 
 }
 
+.social-container a:hover {
+    color: rgba(255, 255, 255, 0.671); 
+    /* text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8);  EFFET COOL MAIS RIEN A FAIRE ICI*/
+  }
 /* Paragraphe */
 p {
     font-size: 18px;

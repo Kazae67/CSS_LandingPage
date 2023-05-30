@@ -63,19 +63,19 @@
             
             <div class="left-container-features">
                 <i class="fa-sharp fa-solid fa-globe"></i>  <!-- GAUCHE -->
-                <h4>Digital Design</h4>
+                <h2>Digital Design</h2>
                 <p>Some quick example text to build on the card title and make up the build of the card the platform.</p>
             </div>
 
             <div class="middle-container-features">
                 <i class="fa-sharp fa-solid fa-brush"></i><!-- MILLIEU -->
-                <h4>Unlimited Colors</h4>
+                <h2>Unlimited Colors</h2>
                 <p>Credibly brand stanaads compliant user exteible services College Anibh ocean euismod tincidunt laoreet.</p>
             </div>
 
             <div class="right-container-features">
                 <i class="fa-solid fa-chess"></i><!-- DROITE -->
-                <h4>Strategy Solutions</h4>
+                <h2>Strategy Solutions</h2>
                 <p>Separated they live in Bookmarks grove right at the coast of the Semantics, a large ocean regelialia.</p>
             </div>
 

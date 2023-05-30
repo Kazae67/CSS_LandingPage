@@ -32,8 +32,8 @@ body {
 .left-container-features {
     color: white;
     position: relative;
-    width: 300px;
-    height: 280px;
+    width: 410px;
+    height: 330px;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
@@ -54,8 +54,8 @@ body {
 .middle-container-features{
     color:white;
     position:relative;
-    width: 300px;
-    height:280px;
+    width: 410px;
+    height:330px;
     border: 1px solid #ccc;
     border-radius:10px;
     padding: 20px;
@@ -74,7 +74,7 @@ body {
 
 /* MARGIN BOTTOM */
 .fa-solid{
-    margin-bottom:20px;
+    margin-bottom:35px;
     margin-top:40px;
 }
 
@@ -82,8 +82,8 @@ body {
 .right-container-features{
     color:white;
     position:relative;
-    width:300px;
-    height:280px;
+    width:410px;
+    height:330px;
     border: 1px solid #ccc;
     border-radius:10px;
     padding:20px;
@@ -225,14 +225,16 @@ h1 {
     margin-bottom: 10px;
 }
 
-h4 {
+h2 {
     font-weight: 600px;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 18px;
     color: #000000ab;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .email-form {

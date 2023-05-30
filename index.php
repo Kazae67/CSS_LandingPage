@@ -83,6 +83,26 @@
 
         </div>
     </section>
+
+    <!-- Section TEAM -->
+    <section id="team" class="section">
+    <h1>We are a dynamic team of talented and innovative marketing experts</h1>
+    <p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words if several languages of the resulting language.</p>
+    <div class="container-team">
+    <div class="team-member">
+        <img src="img/person1.png" alt="Membre d'équipe 1">
+    </div>
+    <div class="team-member">
+        <img src="img/person2.png" alt="Membre d'équipe 2">
+    </div>
+    <div class="team-member">
+        <img src="img/person3.png" alt="Membre d'équipe 3">
+    </div>
+    <div class="team-member">
+        <img src="img/person4.png" alt="Membre d'équipe 4">
+    </div>
+    </div>
+</section>
     
     <!-- Les autres sections à venir -->
 

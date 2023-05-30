@@ -20,7 +20,6 @@ body {
     padding: 32px;
 }
 
-
 .container-features{
     display: flex;
     justify-content: center;
@@ -34,43 +33,55 @@ body {
     background: white;
     position: relative;
     width: 300px;
-    height: 300px;
+    height: 280px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     margin: 10px;
     text-align: center;
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17);
 }
+.left-container-features .fa-sharp{
+    color:white;
+}
+
 
 .middle-container-features{
     background:white;
     position:relative;
     width: 300px;
-    height:300px;
+    height:280px;
     border: 1px solid #ccc;
-    border-radius:5px;
+    border-radius:10px;
     padding: 20px;
     margin: 10px;
     text-align:center;
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     box-shadow: 0px 0px 10px rgba(0,0,0, 0.17);
 }
+.middle-container-features .fa-sharp{
+    color:white;
+}
+
 
 .right-container-features{
     background:white;
     position:relative;
     width:300px;
-    height:300px;
+    height:280px;
     border: 1px solid #ccc;
-    border-radius:5px;
+    border-radius:10px;
     padding:20px;
     margin: 10px;
     text-align:center;
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     box-shadow: 0px 0px 10px rgba(0,0,0, 0.17);
 }
+.right-container-features .fa-solid{
+    color:white;
+}
+
 
 /* Logo */
 .logo-container {

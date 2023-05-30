@@ -60,19 +60,19 @@
     <!-- Section FEATURES -->
     <section id="features" class="section">
         <div class="container-features">
-
+            
             <div class="left-container-features">
-                <!-- GAUCHE -->
+                <i class="fa-sharp fa-solid fa-globe"></i>  <!-- GAUCHE -->
             </div>
 
             <div class="middle-container-features">
-                <!-- MILLIEU -->
+                <i class="fa-sharp fa-solid fa-brush"></i><!-- MILLIEU -->
             </div>
 
             <div class="right-container-features">
-                <!-- DROITE -->
+                <i class="fa-solid fa-chess"></i><!-- DROITE -->
             </div>
-            
+
         </div>
     </section>
     <!-- Les autres sections à venir -->

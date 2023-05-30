@@ -59,6 +59,8 @@
 
     <!-- Section FEATURES -->
     <section id="features" class="section">
+    <h1>Products Features</h1>
+    <p>It is a long established fact that a reader will be of a page when established fact looking at it's layout.</p>
         <div class="container-features">
             
             <div class="left-container-features">
@@ -81,6 +83,7 @@
 
         </div>
     </section>
+    
     <!-- Les autres sections à venir -->
 
 </body>

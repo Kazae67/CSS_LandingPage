@@ -24,7 +24,20 @@ body {
 .container-features {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 50px;
+}
+
+#features.section h1{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+}
+
+.section p{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    color:rgba(0, 0, 0, 0.425);
 }
 
 /* HOVER CONTAINERS FEATURES */
@@ -46,8 +59,8 @@ body {
 .left-container-features {
     color: white;
     position: relative;
-    width: 410px;
-    height: 330px;
+    width: 370px;
+    height: 360px;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
@@ -59,19 +72,21 @@ body {
 
 .left-container-features .fa-sharp {
     color: white;
-    font-size: 2.5em;
+    font-size: 3.2em;
 }
 
-.left-container-features p {
+.container-features p {
     color: white;
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 /* MIDDLE-CONTAINER FEATURES */
 .middle-container-features {
     color: white;
     position: relative;
-    width: 410px;
-    height: 330px;
+    width: 370px;
+    height: 360px;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
@@ -83,7 +98,7 @@ body {
 
 .middle-container-features .fa-sharp {
     color: white;
-    font-size: 2.5em;
+    font-size: 3.2em;
 }
 
 .middle-container-features p {
@@ -94,8 +109,8 @@ body {
 .right-container-features {
     color: white;
     position: relative;
-    width: 410px;
-    height: 330px;
+    width: 370px;
+    height: 360px;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
@@ -107,11 +122,15 @@ body {
 
 .right-container-features .fa-solid {
     color: white;
-    font-size: 2.5em;
+    font-size: 3.2em;
 }
 
 .right-container-features p {
     color: white;
+}
+
+.container-features p{
+    font-size: 1em;
 }
 
 /* ICONES FEATURES MARGIN BOTTOM */
@@ -243,6 +262,7 @@ h1 {
 }
 
 h2 {
+    font-size:2rem;
     font-weight: 600px;
     margin-bottom: 10px;
 }

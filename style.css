@@ -11,7 +11,7 @@ body {
 }
 
 /* Conteneur principal */
-.container {
+.container-home {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,22 +88,22 @@ body {
 }
 
 /* Conteneurs gauche et droite */
-.left-container,
-.right-container {
+.left-container-home,
+.right-container-home {
     width: 100%;
 }
 
-.left-container {
+.left-container-home {
     padding-right: 50px;
     margin-right: -20px; 
 }
 
-.right-container {
+.right-container-home {
     padding-left: 0px;
     margin-left: auto;
 }
 
-.right-container img {
+.right-container-home img {
     width: 110%; 
     max-width: 110%; 
     height: 600px; 
@@ -198,8 +198,8 @@ button:hover {
         padding: 20px;
     }
 
-    .left-container,
-    .right-container {
+    .left-container-home,
+    .right-container-home {
         width: 100%;
         margin-bottom: 20px;
     }

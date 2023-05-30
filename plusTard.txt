@@ -1,0 +1,3 @@
+   <i class="fa-sharp fa-solid fa-globe"></i> (globe)
+   <i class="fa-sharp fa-solid fa-brush"></i> (pinceau)
+   <i class="fa-solid fa-chess"></i> (chess)

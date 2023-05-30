@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://kit.fontawesome.com/a45e9c27c8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Landing Page PDO</title>
+    <title>Landing Page</title>
 </head>
 <body>
     <!-- En-tête -->
@@ -31,15 +31,16 @@
                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+             
             </ul>
         </nav>
     </header>
 
     <!-- Section HOME -->
     <section id="home" class="section">
-        <div class="container">
+        <div class="container-home">
             <!-- Conteneur de gauche -->
-            <div class="left-container">
+            <div class="left-container-home">
                 <h1>We are StartUp Creative Kucra Agency</h1>
                 <p>Carefully crafted after analyzing the needs of different industries, and the design achieves a great balance between purpose & presentation.</p>
                 <form class="email-form" action="" method="post">
@@ -50,12 +51,30 @@
                 </form>
             </div>
             <!-- Conteneur de droite -->
-            <div class="right-container">
+            <div class="right-container-home">
                 <img src="img/illustration.svg" alt="Chat Image">
             </div>
         </div>
     </section>
 
+    <!-- Section FEATURES -->
+    <section id="features" class="section">
+        <div class="container-features">
+
+            <div class="left-container-features">
+                <!-- GAUCHE -->
+            </div>
+
+            <div class="middle-container-features">
+                <!-- MILLIEU -->
+            </div>
+
+            <div class="right-container-features">
+                <!-- DROITE -->
+            </div>
+            
+        </div>
+    </section>
     <!-- Les autres sections à venir -->
 
 </body>

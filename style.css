@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+
 /* Body */
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f2f2f2;
 }
 
+
 /* CONTAINEURS HOME */
+
 .container-home {
     display: flex;
     justify-content: space-between;
@@ -20,27 +24,35 @@ body {
     padding: 32px;
 }
 
+
 /* CONTAINEUR FEATURES */
+
 .container-features {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-#features.section h1{
-    margin-top:100px;
+#features.section {
+    background: white;
+}
+
+#features.section h1 {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
 
-.section p{
+.section p {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
-    color:rgba(0, 0, 0, 0.425);
+    color: rgba(0, 0, 0, 0.425);
 }
+
 
 /* HOVER CONTAINERS FEATURES */
+
 .container-features .left-container-features:hover,
 .container-features .middle-container-features:hover,
 .container-features .right-container-features:hover {
@@ -48,14 +60,18 @@ body {
     transition: transform 0.5s ease;
 }
 
+
 /* TRANSITION CONTAINERS FEATURES */
+
 .container-features .left-container-features,
 .container-features .middle-container-features,
 .container-features .right-container-features {
     transition: transform 0.3s ease;
 }
 
+
 /* LEFT-CONTAINER FEATURES */
+
 .left-container-features {
     color: white;
     position: relative;
@@ -81,7 +97,9 @@ body {
     margin-top: 15px;
 }
 
+
 /* MIDDLE-CONTAINER FEATURES */
+
 .middle-container-features {
     color: white;
     position: relative;
@@ -105,7 +123,9 @@ body {
     color: white;
 }
 
+
 /* RIGHT-CONTAINER FEATURES */
+
 .right-container-features {
     color: white;
     position: relative;
@@ -129,17 +149,21 @@ body {
     color: white;
 }
 
-.container-features p{
+.container-features p {
     font-size: 1em;
 }
 
+
 /* ICONES FEATURES MARGIN BOTTOM */
+
 .fa-solid {
     margin-bottom: 35px;
     margin-top: 40px;
 }
 
+
 /* Logo */
+
 .logo-container {
     position: absolute;
     top: 10px;
@@ -155,13 +179,17 @@ body {
     margin: 0;
 }
 
+
 /* Sections */
+
 .section {
     padding: 80px 0;
     height: 100vh;
 }
 
+
 /* Section d'accueil */
+
 #home {
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     background-attachment: fixed;
@@ -169,7 +197,9 @@ body {
     background-size: cover;
 }
 
+
 /* Navbar */
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -206,7 +236,9 @@ body {
     color: rgba(255, 255, 255, 0.671);
 }
 
+
 /* Conteneurs gauche et droite */
+
 .left-container-home,
 .right-container-home {
     width: 100%;
@@ -228,7 +260,9 @@ body {
     height: 600px;
 }
 
+
 /* Sociales */
+
 .social-container {
     position: fixed;
     top: 43px;
@@ -253,7 +287,9 @@ body {
     color: rgba(255, 255, 255, 0.671);
 }
 
+
 /* Styles */
+
 h1 {
     font-size: 40px;
     font-weight: 900;
@@ -262,7 +298,7 @@ h1 {
 }
 
 h2 {
-    font-size:2rem;
+    font-size: 2rem;
     font-weight: 600px;
     margin-bottom: 10px;
 }
@@ -315,29 +351,27 @@ button:hover {
     background-color: #1294b8c4;
 }
 
+
 /* Media queries */
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
         padding: 20px;
     }
-
     .left-container-home,
     .right-container-home {
         width: 100%;
         margin-bottom: 20px;
     }
-
     .navbar {
         flex-wrap: wrap;
         padding: 20px;
     }
-
     .nav-links {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .nav-links li {
         margin-bottom: 10px;
     }
@@ -350,7 +384,6 @@ button:hover {
         left: -15px;
         right: 0px;
     }
-
     .social-container {
         position: absolute;
         top: 40px;
@@ -366,7 +399,6 @@ button:hover {
         left: -15px;
         right: 0px;
     }
-
     .social-container {
         position: absolute;
         top: 40px;
@@ -381,7 +413,6 @@ button:hover {
         right: 5px;
         padding: 10px;
     }
-
     .logo-container h1 {
         font-size: 20px;
     }
@@ -394,7 +425,6 @@ button:hover {
         justify-content: flex-end;
         margin-top: 20px;
     }
-
     .social-container li {
         margin-right: 5px;
     }

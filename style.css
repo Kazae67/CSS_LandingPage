@@ -112,7 +112,7 @@ body {
 /* Sociales */
 .social-container {
     position: fixed;
-    top: 40px;
+    top: 43px;
     right: calc(20% + 0px);
     transform: translateX(100%); 
     text-decoration: none;

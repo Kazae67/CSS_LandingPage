@@ -50,6 +50,12 @@ body {
     color: rgba(0, 0, 0, 0.425);
 }
 
+#team.section h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* HOVER CONTAINERS FEATURES */
 

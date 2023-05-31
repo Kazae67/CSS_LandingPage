@@ -6,7 +6,6 @@
 
 
 /* Body */
-
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f2f2f2;
@@ -14,7 +13,6 @@ body {
 
 
 /* CONTAINEURS HOME */
-
 .container-home {
     display: flex;
     justify-content: space-between;
@@ -26,7 +24,6 @@ body {
 
 
 /* CONTAINEUR FEATURES */
-
 .container-features {
     display: flex;
     justify-content: center;
@@ -56,9 +53,7 @@ body {
     justify-content: center;
 }
 
-
 /* HOVER CONTAINERS FEATURES */
-
 .container-features .left-container-features:hover,
 .container-features .middle-container-features:hover,
 .container-features .right-container-features:hover {
@@ -68,7 +63,6 @@ body {
 
 
 /* TRANSITION CONTAINERS FEATURES */
-
 .container-features .left-container-features,
 .container-features .middle-container-features,
 .container-features .right-container-features {
@@ -77,7 +71,6 @@ body {
 
 
 /* LEFT-CONTAINER FEATURES */
-
 .left-container-features {
     color: white;
     position: relative;
@@ -105,7 +98,6 @@ body {
 
 
 /* MIDDLE-CONTAINER FEATURES */
-
 .middle-container-features {
     color: white;
     position: relative;
@@ -131,7 +123,6 @@ body {
 
 
 /* RIGHT-CONTAINER FEATURES */
-
 .right-container-features {
     color: white;
     position: relative;
@@ -161,7 +152,6 @@ body {
 
 
 /* ICONES FEATURES MARGIN BOTTOM */
-
 .fa-solid {
     margin-bottom: 35px;
     margin-top: 40px;
@@ -169,7 +159,6 @@ body {
 
 
 /* Logo */
-
 .logo-container {
     position: absolute;
     top: 10px;
@@ -187,7 +176,6 @@ body {
 
 
 /* Sections */
-
 .section {
     padding: 80px 0;
     height: 100vh;
@@ -195,7 +183,6 @@ body {
 
 
 /* Section d'accueil */
-
 #home {
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     background-attachment: fixed;
@@ -205,7 +192,6 @@ body {
 
 
 /* Navbar */
-
 .navbar {
     display: flex;
     justify-content: center;
@@ -244,7 +230,6 @@ body {
 
 
 /* Conteneurs gauche et droite */
-
 .left-container-home,
 .right-container-home {
     width: 100%;
@@ -268,13 +253,13 @@ body {
 
 
 /* TEAM */
-
 .container-team {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
+
 
 .team-member {
     position: relative;

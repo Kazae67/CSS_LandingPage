@@ -101,12 +101,27 @@
 
     <div class="team-member">
         <img src="img/person2.png" alt="Membre d'équipe 2">
+        <ul class="team-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+        </ul>
     </div>
     <div class="team-member">
         <img src="img/person3.png" alt="Membre d'équipe 3">
+        <ul class="team-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+        </ul>
     </div>
     <div class="team-member">
         <img src="img/person4.png" alt="Membre d'équipe 4">
+        <ul class="team-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+        </ul>
     </div>
     </div>
 </section>

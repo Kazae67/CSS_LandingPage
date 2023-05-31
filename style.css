@@ -310,7 +310,7 @@ body {
     transform: scale(1.1);
 }
 
-/* TEST */
+/* HOVER TEAM ICONS */
 .team-icons{
     display: flex;
     flex-direction:column;
@@ -335,7 +335,6 @@ body {
  
   }
 
-  /* TEST */
 
 /* Sociales */
 

@@ -89,9 +89,16 @@
     <h1>We are a dynamic team of talented and innovative marketing experts</h1>
     <p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words if several languages of the resulting language.</p>
     <div class="container-team">
+
     <div class="team-member">
         <img src="img/person1.png" alt="Membre d'équipe 1">
+        <ul class="team-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+        </ul>
     </div>
+
     <div class="team-member">
         <img src="img/person2.png" alt="Membre d'équipe 2">
     </div>

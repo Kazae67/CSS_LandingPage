@@ -277,6 +277,7 @@ body {
 }
 
 .team-member {
+    position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -309,14 +310,32 @@ body {
     transform: scale(1.1);
 }
 
+/* TEST */
 .team-icons{
-    display:none;
-    position:absolute;
-    font-size:larger;
-    align-items:center;
-    right:0px;
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    top: 0%;
+    left: -20%;
+    color : white;
+    transition: all 1s ease-out;
 }
 
+.team-member:hover .team-icons {
+    top:20%;
+    left: 10%;
+    color: black;
+    transition: all 1s ease-out;
+  }
+  
+  .team-icons i {
+    margin: 3px;
+    
+    font-size: 18px;
+ 
+  }
+
+  /* TEST */
 
 /* Sociales */
 

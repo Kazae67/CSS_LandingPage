@@ -1,12 +1,15 @@
 [Principaux]
 - Remplacer les h1 spécifiques dans leurs container/section.
-- Mettre les h1 titre dans un container ainsi que les paragraphes utilisés.
 - Créer un container au dessus de l'image team pour les int.
 - Créer un container en dessous de l'image team pour les noms.
 - Créer un container pour placer le "How it work ?" en dessous des features products.
 - Voir pourquoi l'h1 de team ne s'aligne pas.
 - Il ya d'avantage d'espacement dans la section team, améliorer les space between.
 - Revoir absolument la responsivité.
+
+[Terminé]
+- Mettre les h1 titre dans un container ainsi que les paragraphes utilisés.
+
 
 [Secondaire]
 - Faire en sorte que la navbar reste bien en haut quand nous scrollons.

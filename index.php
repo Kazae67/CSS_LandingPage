@@ -109,6 +109,7 @@
                 <i class="fa-brands fa-instagram"></i>
         </ul>
     </div>
+
     <div class="team-member">
         <img src="img/person3.png" alt="Membre d'équipe 3">
         <ul class="team-icons">
@@ -117,6 +118,7 @@
                 <i class="fa-brands fa-instagram"></i>
         </ul>
     </div>
+
     <div class="team-member">
         <img src="img/person4.png" alt="Membre d'équipe 4">
         <ul class="team-icons">
@@ -125,6 +127,7 @@
                 <i class="fa-brands fa-instagram"></i>
         </ul>
     </div>
+    
     </div>
 </section>
     

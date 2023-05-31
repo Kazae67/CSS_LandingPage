@@ -91,9 +91,9 @@
     <p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words if several languages of the resulting language.</p>
     <div class="container-team">
 
-
-    <div class="team-member">
+        <div class="team-member">
         <img src="img/person1.png" alt="Membre d'équipe 1">
+        <div class="member-name">Alyssia</div>
         <ul class="team-icons">
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-twitter"></i>
@@ -103,6 +103,7 @@
 
     <div class="team-member">
         <img src="img/person2.png" alt="Membre d'équipe 2">
+        <div class="member-name">John</div>
         <ul class="team-icons">
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-twitter"></i>
@@ -112,6 +113,7 @@
 
     <div class="team-member">
         <img src="img/person3.png" alt="Membre d'équipe 3">
+        <div class="member-name">Phoebe</div>
         <ul class="team-icons">
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-twitter"></i>
@@ -121,6 +123,7 @@
 
     <div class="team-member">
         <img src="img/person4.png" alt="Membre d'équipe 4">
+        <div class="member-name">Djeff</div>
         <ul class="team-icons">
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-twitter"></i>

@@ -410,18 +410,24 @@ button:hover {
 
 /* icons */
 .team-icons{
-    display: flex;
     flex-direction: column;
     position: absolute;
-    top: 0%;
-    left: -20%;
-    color: white;
+    top: -12%;
+    left: -26%;
     transition: all 1s ease-out;
 }
 
-.team-icons i {
-    margin: 3px;
-    font-size: 18px;
+.team-icons i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color:white;
+    margin: 7px;
+    font-size: 22px;
+    color: black;
 }
 
 /*hover icons*/

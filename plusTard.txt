@@ -1,26 +1,6 @@
-[Principaux]
-- Remplacer les h1 spécifiques dans leurs container/section.
-- Créer un container au dessus de l'image team pour les int.
-- Créer un container en dessous de l'image team pour les noms.
-- Créer un container pour placer le "How it work ?" en dessous des features products.
-- Voir pourquoi l'h1 de team ne s'aligne pas.
-- Il ya d'avantage d'espacement dans la section team, améliorer les space between.
-- Revoir absolument la responsivité.
+Ordres :
 
-[Terminé]
-- Mettre les h1 titre dans un container ainsi que les paragraphes utilisés.
-
-
-[Secondaire]
-- Faire en sorte que la navbar reste bien en haut quand nous scrollons.
-- Mettre les icons dans une forme ronde blanc dans la section team.
-- Organiser à nouveau son css.
-- Ajouter un boutton scroll pour remonter tout en haut de la page depuis n'importe où.
-- Si possible, aggrandir la taille du conteneur home et éventuellement agrandir l'svg.
-- Changer également le background de la partie team
-
-[Auto-tips]
-Reprendre seulement après avoir résolu les problèmes principaux.
-Pour le parallax fait en sorte que l'image ne bouge pas.
-
-
+(1) : Finir tout les exercices jusqu'au 7 (pdf)
+(2) : Visiter intégralement le code pour y faire le ménage
+(3) : Faire les @media Q 
+(4) : Créer un troisième landing page pour Bind Landing_Page_CSS & Landing_Page_PDO

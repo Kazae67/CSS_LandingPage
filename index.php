@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Landing Page</title>
+    <title>Landing Page CSS</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a45e9c27c8.js" crossorigin="anonymous"></script>
 </head>
@@ -172,9 +172,47 @@
 
     <!-- BLOG -->
     <section id="blog" class="section">
+        <!-- TITLE -->
+        <div class="blog-title">
+            <h1></h1>
+            <p></p>
+        </div>
+
+        <!-- CONTAINER -->
         <div class="blog-container">
 
-        </div>
+            <!-- GAUCHE -->
+            <div class="blog-left">
+                <div class="blog-picture">
+                    <img src="img/blog1.png" class="blog-image">
+                    <div class="blog-description">
+                        <div class="blog-name"><i class="fa-regular fa-user"></i></div>
+                        <div class="blog-date"><i class="fa-regular fa-clock"></i></div>
+                    </div> 
+                </div>
+            </div>    
+
+            <!-- MILLIE -->
+            <div class="blog-middle">
+                <div class="blog-picture">
+                    <img src="img/blog2.png" class="blog-image">
+                    <div class="blog-description">
+                        <div class="blog-name"><i class="fa-regular fa-user"></i></div>
+                        <div class="blog-date"><i class="fa-regular fa-clock"></i></div>
+                    </div> 
+                </div>
+            </div>    
+
+            <!-- DROITE -->
+            <div class="blog-right">
+                <div class="blog-picture">
+                    <img src="img/blog3.png" class="blog-image">
+                    <div class="blog-description">
+                        <div class="blog-name"><i class="fa-regular fa-user"></i></div>
+                        <div class="blog-date"><i class="fa-regular fa-clock"></i></div>
+                    </div> 
+                </div>
+            </div>    
     </section>
 
     <!-- Les autres sections à venir -->

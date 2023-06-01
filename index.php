@@ -182,35 +182,41 @@
         <div class="blog-container">
 
             <!-- GAUCHE -->
-            <div class="blog-left">
-                <div class="blog-picture">
-                    <img src="img/blog1.png" class="blog-image">
-                    <div class="blog-description">
-                        <div class="blog-name"><i class="fa-regular fa-user"></i>Calvin Carlo</div>
-                        <div class="blog-date"><i class="fa-regular fa-clock"></i>20th March 2021</div>
-                    </div> 
-                </div>
-            </div>    
+            <div class="blog-cards">
+                <div class ="image-hover">
+                    <div class="blog-picture">
+                        <img src="img/blog1.png" class="blog-image">
+                        <div class="blog-description">
+                            <div class="blog-name"><i class="fa-regular fa-user"></i>Calvin Carlo</div>
+                            <div class="blog-date"><i class="fa-regular fa-clock"></i>20th March 2021</div>
+                        </div> 
+                    </div>
+                </div>    
+            </div> 
 
             <!-- MILLIEU -->
-            <div class="blog-middle">
-                <div class="blog-picture">
-                    <img src="img/blog2.png" class="blog-image">
-                    <div class="blog-description">
-                        <div class="blog-name"><i class="fa-regular fa-user"></i>Ruben Reed</div>
-                        <div class="blog-date"><i class="fa-regular fa-clock"></i>01th July 2021</div>
-                    </div> 
-                </div>
-            </div>    
+            <div class="blog-cards">
+                <div class ="image-hover">
+                    <div class="blog-picture">
+                        <img src="img/blog2.png" class="blog-image">
+                        <div class="blog-description">
+                            <div class="blog-name"><i class="fa-regular fa-user"></i>Ruben Reed</div>
+                            <div class="blog-date"><i class="fa-regular fa-clock"></i>01th July 2021</div>
+                        </div> 
+                    </div>
+                </div>   
+            </div> 
 
             <!-- DROITE -->
-            <div class="blog-right">
-                <div class="blog-picture">
-                    <img src="img/blog3.png" class="blog-image">
-                    <div class="blog-description">
-                        <div class="blog-name"><i class="fa-regular fa-user"></i>Theresa Sinclair</div>
-                        <div class="blog-date"><i class="fa-regular fa-clock"></i>25th July 2021</div>
-                    </div> 
+            <div class="blog-cards">
+                <div class ="image-hover">
+                    <div class="blog-picture">
+                        <img src="img/blog3.png" class="blog-image">
+                        <div class="blog-description">
+                            <div class="blog-name"><i class="fa-regular fa-user"></i>Theresa Sinclair</div>
+                            <div class="blog-date"><i class="fa-regular fa-clock"></i>25th July 2021</div>
+                        </div> 
+                    </div>
                 </div>
             </div>    
     </section>

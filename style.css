@@ -421,12 +421,12 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color:white;
     margin: 7px;
-    font-size: 22px;
+    font-size: 20px;
     color: black;
 }
 

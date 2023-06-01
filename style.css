@@ -380,14 +380,26 @@ button:hover {
     text-align: center;
     font-size: 30px;
 }
+.team-member .subscribe-number{
+    color:black;
+    font-weight:bolder;
+}
 
 /* description */
 .member-description{
     margin-bottom: 40px;
 }
+.team-member .member-description{
+    margin-top:-20px;
+}
 
 .name-member{
     text-align: center;
+}
+.team-member .name-member{
+    color:black;
+    font-weight:bolder;
+    margin-bottom:10px;
 }
 
 .job-member{

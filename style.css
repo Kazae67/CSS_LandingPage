@@ -529,10 +529,14 @@ button:hover {
 .blog-description{
     position: absolute;
     color:white;
-    top : 8px;
-    left: 8px;
+    top : -40px;
+    left: 26px;
     transition: 0.4s;
     visibility: hidden;
+}
+
+.blog-name{
+    font-weight:900;
 }
 
 /* Cards */
@@ -547,6 +551,7 @@ button:hover {
 
 /* hover */
 .blog-image{
+    margin-top:-60px;
     width: 320px;
     height: auto;
     transition: 1.1s;

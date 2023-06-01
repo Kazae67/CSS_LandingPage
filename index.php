@@ -119,6 +119,7 @@
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-instagram"></i>
         </ul>
+        
     </div>
 
     <div class="team-member">
@@ -134,6 +135,20 @@
     </div>
 </section>
     
+    <!-- Parallax -->
+    <section class="parallax" class="section">
+        <div class="container-parallax">
+            <h2 class="parallax-title">Let's get started with Kucra</h2>
+            <p  class="parallax-text">They are a good way to get you started if you want to buils something similar or use from existing apps which will reduce the cost, efforts and time of the developpers.</p>
+            <button class="parallax-button"><a href="#">Get Started</a></button>
+        </div>
+    </section>
+
+<section id="blog" class="section">
+    <div class="blog-container">
+
+    </div>
+</section>
     <!-- Les autres sections à venir -->
 
 </body>

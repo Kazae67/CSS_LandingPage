@@ -323,7 +323,7 @@ button:hover {
     font-size: 1em;
 }
 
-/* Section avec les photos de l'équipe */
+/* TEAM */
 #team.section{
     background: white;
 }
@@ -375,12 +375,13 @@ button:hover {
     margin: 50px;
 }
 
+/* subscribe */
 .subscribe-number{
     text-align: center;
     font-size: 30px;
 }
 
-/* MEMBER ESPACEMENT */
+/* description */
 .member-description{
     margin-bottom: 40px;
 }
@@ -395,7 +396,7 @@ button:hover {
     margin-bottom: 60px;
 }
 
-/*Contient toutes les icônes sur les photos*/
+/* icons */
 .team-icons{
     display: flex;
     flex-direction: column;

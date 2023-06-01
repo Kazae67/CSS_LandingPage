@@ -86,54 +86,84 @@
 
     <!-- Section TEAM -->
     <section id="team" class="section">
-    <div class="team-title container">
-    <h1>We are a dynamic team of talented people of innovative & marketing experts</h1>
-    <p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words if several languages of the resulting language.</p>
-    <div class="container-team">
 
-        <div class="team-member">
-        <img src="img/person1.png" alt="Membre d'équipe 1">
-        <div class="member-name">Alyssia</div>
-        <ul class="team-icons">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-        </ul>
-    </div>
+        <div class="team-title">
+            <h1>We'r dynamic team of talentend people of innovative & marketing expert</h1>
+            <p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words, if several languages of the resulting language.</p>
+        </div>
 
-    <div class="team-member">
-        <img src="img/person2.png" alt="Membre d'équipe 2">
-        <div class="member-name">John</div>
-        <ul class="team-icons">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-        </ul>
-    </div>
+        <div class="container-team">
 
-    <div class="team-member">
-        <img src="img/person3.png" alt="Membre d'équipe 3">
-        <div class="member-name">Phoebe</div>
-        <ul class="team-icons">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-        </ul>
-        
-    </div>
+            <div class="team-member">
+                <p class="subscribe-number">1499+</p>
+                <p class="member-description">Complete Projects</p>
+                <!-- Div contiendra img + icons social -->
+                    <div class="picture-container">
+                        <img src="./img/person1.png" class="member-picture">
+                            <div class="team-icons">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-skype"></i>
+                            </div>
+                    </div>
 
-    <div class="team-member">
-        <img src="img/person4.png" alt="Membre d'équipe 4">
-        <div class="member-name">Djeff</div>
-        <ul class="team-icons">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-        </ul>
-    </div>
-    
-    </div>
-</section>
+                <p class="name-member">Anna G. Wilhite</p>
+                <p class="job-member">CEO/Founder</p>
+            </div>
+            <div class="team-member">
+                <p class="subscribe-number">1080K</p>
+                <p class="member-description">Satisfied Clients</p>
+
+                <!-- Div contiendra img + icons social -->
+                    <div class="picture-container">
+                        <img src="img/person2.png" class="member-picture">
+                        <div class="team-icons">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-skype"></i>
+                        </div>
+                    </div>
+
+                <p class="name-member">William S. Blay</p>
+                <p class="job-member">CTO/Co-Founder</p>
+            </div>
+            <div class="team-member">
+                <p class="subscribe-number">608</p>
+                <p class="member-description">Team Members</p>
+
+                <!-- Div contiendra img + icons social -->
+                    <div class="picture-container">
+                        <img src="img/person3.png" class="member-picture">
+                        <div class="team-icons">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-skype"></i>
+                        </div>
+                    </div>
+
+                <p class="name-member">Maria B. Morales</p>
+                <p class="job-member">Web Designer</p>
+            </div>
+            <div class="team-member">
+                <p class="subscribe-number">252</p>
+                <p class="member-description">Employee</p>
+
+                <!-- Div contiendra img + icons social -->
+                    <div class="picture-container">
+                        <img src="img/person4.png" class="member-picture">
+                        <div class="team-icons">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-skype"></i>
+                        </div>
+                    </div>
+
+                <p class="name-member">Luke L Johnston</p>
+                <p class="job-member">Web Developer</p>
+            </div>
+
+        </div>
+    </section>
     
     <!-- Parallax -->
     <section class="parallax" class="section">

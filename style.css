@@ -323,44 +323,35 @@ button:hover {
     font-size: 1em;
 }
 
-/* TEAM */
-#team.section h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Section avec les photos de l'équipe */
+#team.section{
+    background: white;
 }
 
-#team.section {
-    background:white;
-}
-
-.container.team-title {
+.team-title{
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
     margin-top: 100px;
 }
-
-.container.team-title h1 {
+.team-title h1{
     text-align: center;
 }
-
-.container.team-title p {
+.team-title p{
     max-width: 650px;
     text-align: center;
 }
 
-.container-team {
+.container-team{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
 }
 
-.team-member {
+.picture-container{
     position: relative;
     width: 215px;
     height: 215px;
@@ -369,50 +360,43 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px;
-    margin-top: 200px;
+    margin: 0 20px;
+    margin-bottom: 50px;
 }
 
-.team-member:last-child {
-    margin-right: 0;
+.member-picture{
+    width: 250px;
+    height: 250px;
+    filter: grayscale(1);
+    transition: 1s;
 }
 
-.team-member img {
-    width: 100%;
-    height: 130%;
-    object-fit: cover;
+.team-member{
+    margin: 50px;
 }
 
-.team-member .member-name {
-    position: absolute;
-    top: 176px;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.479);
-    color: white;
-    padding: 10px;
+.subscribe-number{
     text-align: center;
-    opacity: 0;
-    transition: opacity 2s ease;
+    font-size: 30px;
 }
 
-.team-member:hover .member-name {
-    opacity: 1;
+/* MEMBER ESPACEMENT */
+.member-description{
+    margin-bottom: 40px;
 }
 
-.container-team .team-member img {
-    filter: grayscale(100%);
-    transition: filter 1s;
-    transition: transform 1.2s;
+.name-member{
+    text-align: center;
 }
 
-.container-team .team-member img:hover {
-    filter: grayscale(0%);
-    transform: scale(1.1);
+.job-member{
+    text-align: center;
+    color:rgb(167, 167, 167);
+    margin-bottom: 60px;
 }
 
-/* icons*/
-.team-icons {
+/*Contient toutes les icônes sur les photos*/
+.team-icons{
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -421,18 +405,25 @@ button:hover {
     color: white;
     transition: all 1s ease-out;
 }
+
 .team-icons i {
     margin: 3px;
     font-size: 18px;
 }
 
-/* hover */
-.team-member:hover .team-icons {
-    top: 20%;
-    left: 10%;
-    color: black;
-    transition: all 1s ease-out;
+/*hover icons*/
+.picture-container:hover .team-icons{
+    transform: translateY(75px) translateX(70px);
+    transition: 1s;
 }
+
+/* hover couleur */
+.picture-container:hover .member-picture{
+    filter: grayscale(0);
+    transition: 1s;
+    transform:scale(1.10)
+}
+
 
 /* PARALLAX */ 
 .parallax {

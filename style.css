@@ -433,13 +433,13 @@ button:hover {
 /*hover icons*/
 .picture-container:hover .team-icons{
     transform: translateY(75px) translateX(70px);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 /* hover couleur */
 .picture-container:hover .member-picture{
     filter: grayscale(0);
-    transition: 1s;
+    transition: 0.8s;
     transform:scale(1.10)
 }
 

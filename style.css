@@ -446,6 +446,7 @@ button:hover {
 
 /* PARALLAX */ 
 .parallax {
+    position:relative;
     height: 60vh;
     background-image: url(./img/parallax.png);
     background-attachment: fixed;

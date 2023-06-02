@@ -89,6 +89,14 @@
         </div>
     </section>
 
+    <!-- FAQ ? -->
+    <section id="faq" class="section">
+        <div class="faq-title">
+            <h1></h1>
+            <p></p>
+        </div>
+    </section>
+
     <!-- TEAM -->
     <section id="team" class="section">
         <!-- TITLE -->

@@ -351,9 +351,7 @@ button:hover {
     max-width:700px;    
     color: rgba(0, 0, 0, 0.336);
     font-weight:600;
-
 }
-
 .container-team{
     display: flex;
     flex-wrap: wrap;
@@ -401,6 +399,10 @@ button:hover {
 }
 .team-member .member-description{
     margin-top:-20px;
+    text-align:center;
+    font-weight:bolder;
+    color: rgba(0, 0, 0, 0.336);
+    
 }
 
 .name-member{
@@ -481,6 +483,7 @@ button:hover {
     color: rgba(255, 255, 255, 0.733);
     max-width: 1050px;
     text-align: center;
+    font-weight:600px;
 }
 
 .parallax-button {
@@ -521,6 +524,8 @@ button:hover {
 .blog-title p{
     max-width: 550px;
     text-align: center;
+    font-weight:600;
+    color: rgba(0, 0, 0, 0.336);
 }
 
 /* Title */

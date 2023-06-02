@@ -19,7 +19,7 @@
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#features">FEATURES</a></li>
                 <li><a href="#client">CLIENT</a></li>
-                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="pricing.php">PRICING</a></li>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#blog">BLOG</a></li>

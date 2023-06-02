@@ -1,6 +1,0 @@
-Ordres :
-
-(1) : Finir tout les exercices jusqu'au 7 (pdf)
-(2) : Visiter intégralement le code pour y faire le ménage
-(3) : Faire les @media Q 
-(4) : Créer un troisième landing page pour Bind Landing_Page_CSS & Landing_Page_PDO

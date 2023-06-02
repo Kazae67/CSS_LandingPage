@@ -1,0 +1,154 @@
+body {
+    background-color: #f5f5f5;
+    margin: 90;
+    padding: 0;   
+}
+
+/* CONTENEUR */
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* FORMULES */
+.pricing-box {
+    background: white;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17);
+}
+
+.pricing-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-box p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.pricing-box .prix {
+    font-size: 30px;
+}
+
+.pricing-box .month {
+    font-size: 18px;
+}
+
+/* REDUCTION */
+.pricing-box .reduction {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(63, 134, 228);
+    padding: 8px 20px;
+    text-align: left;
+    border-radius: 0px 3px 0px 7px;
+    margin-top: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17); 
+}
+
+.blink {
+    animation: blink 1.7s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+/* FONCTIONNALITÉES */
+.pricing-box .feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* MOIS */
+.month {
+    font-size: 12px;
+    color: #999;
+}
+
+/* PRIX */
+.prix {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px; 
+    font-weight: bolder;
+    color: rgb(64, 144, 248);  
+    margin: 0 auto;
+}
+
+/* JOIN NOW */
+.join-button {
+    background-color: rgb(64, 144, 248);  
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17);
+    transition: background-color 0.3s ease; 
+}
+
+.join-button:hover {
+    background-color: rgb(94, 174, 248);
+}
+
+/* SUBSCRIBE */
+.subscribe-container {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-container button:hover {
+    background-color: #5bce64; 
+}
+
+.subscribe-container input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17);
+}
+
+.subscribe-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease; 
+}

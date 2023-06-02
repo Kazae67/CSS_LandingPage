@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Landing Page CSS</title>
-    <link rel="stylesheet" href="../PUBLIC/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/a45e9c27c8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
+    <!-- SCROLL TOP -->
+    <button onclick="scrollToTop()" id="scroll-button">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
         <!-- LOGO -->
         <div class="logo-container">
             <h1>Kucra</h1>
@@ -52,7 +58,7 @@
 
             <!-- DROITE -->
             <div class="right-container-home">
-                <img src="../PUBLIC/img/illustration.svg" alt="Chat Image">
+                <img src="../img/illustration.svg" alt="Chat Image">
             </div>
         </div>
     </section>
@@ -98,7 +104,7 @@
                 <p class="subscribe-number">1499+</p>
                 <p class="member-description">Complete Projects</p>
                 <div class="picture-container">
-                    <img src="../PUBLIC/img/person1.png" class="member-picture">
+                    <img src="../img/person1.png" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -114,7 +120,7 @@
                 <p class="subscribe-number">1080K</p>
                 <p class="member-description">Satisfied Clients</p>
                 <div class="picture-container">
-                    <img src="../PUBLIC/img/person2.png" class="member-picture">
+                    <img src="../img/person2.png" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -130,7 +136,7 @@
                 <p class="subscribe-number">608</p>
                 <p class="member-description">Team Members</p>
                 <div class="picture-container">
-                    <img src="../PUBLIC/img/person3.png" class="member-picture">
+                    <img src="../img/person3.png" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -146,7 +152,7 @@
                 <p class="subscribe-number">252</p>
                 <p class="member-description">Employee</p>
                 <div class="picture-container">
-                    <img src="../PUBLIC/img/person4.png" class="member-picture">
+                    <img src="../img/person4.png" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -185,7 +191,7 @@
             <div class="blog-cards">
                 <div class ="image-hover">
                     <div class="blog-picture">
-                        <img src="../PUBLIC/img/blog1.png" class="blog-image">
+                        <img src="../img/blog1.png" class="blog-image">
                         <div class="blog-description">
                             <div class="blog-name"><i class="fa-regular fa-user"></i> Calvin Carlo</div>
                             <div class="blog-date"><i class="fa-regular fa-clock"></i> 20th March 2021</div>
@@ -203,7 +209,7 @@
             <div class="blog-cards">
                 <div class ="image-hover">
                     <div class="blog-picture">
-                        <img src="../PUBLIC/img/blog2.png" class="blog-image">
+                        <img src="../img/blog2.png" class="blog-image">
                         <div class="blog-description">
                             <div class="blog-name"><i class="fa-regular fa-user"></i> Ruben Reed</div>
                             <div class="blog-date"><i class="fa-regular fa-clock"></i> 01th July 2021</div>
@@ -221,7 +227,7 @@
             <div class="blog-cards">
                 <div class ="image-hover">
                     <div class="blog-picture">
-                        <img src="../PUBLIC/img/blog3.png" class="blog-image">
+                        <img src="../img/blog3.png" class="blog-image">
                         <div class="blog-description">
                             <div class="blog-name"><i class="fa-regular fa-user"></i> Theresa Sinclair</div>
                             <div class="blog-date"><i class="fa-regular fa-clock"></i> 25th July 2021</div>
@@ -236,6 +242,8 @@
             </div>    
     </section>
 
+
+    <!-- FOOTER -->
     <footer id="footer" class="section">
         <div class="footer-container">
             <div class="footer-social">
@@ -254,7 +262,7 @@
             2022 &copy; Kucra - Landing Page Template by Pichforest
         </div>
     </footer>
-</body>
 
+    <script src="../js/scroll.js"></script>
 </body>
 </html>

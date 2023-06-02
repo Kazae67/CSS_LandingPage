@@ -19,7 +19,7 @@ $data = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 <!-- Navbar -->
 <nav class="navbar">
-  <a href="../PUBLIC/pricing.php" class="nav-link">Home</a>
+  <a href="../PUBLIC/php/pricing.php" class="nav-link">Home</a>
   <a href="admin.php" class="nav-link">Admin</a>
 </nav>
 <?php

@@ -12,14 +12,14 @@ $data = $statement->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <!-- CSS -->
-<link rel="stylesheet" href="admin.css">
-<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="../PUBLIC/css/admin.css">
+<link rel="stylesheet" href="../PUBLIC/css/navbar.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 <!-- Navbar -->
 <nav class="navbar">
-  <a href="pricing.php" class="nav-link">Home</a>
+  <a href="../PUBLIC/pricing.php" class="nav-link">Home</a>
   <a href="admin.php" class="nav-link">Admin</a>
 </nav>
 <?php

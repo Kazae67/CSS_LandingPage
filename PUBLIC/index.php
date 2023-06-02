@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Landing Page CSS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../PUBLIC/css/style.css">
     <script src="https://kit.fontawesome.com/a45e9c27c8.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -52,7 +52,7 @@
 
             <!-- DROITE -->
             <div class="right-container-home">
-                <img src="img/illustration.svg" alt="Chat Image">
+                <img src="../PUBLIC/img/illustration.svg" alt="Chat Image">
             </div>
         </div>
     </section>
@@ -98,7 +98,7 @@
                 <p class="subscribe-number">1499+</p>
                 <p class="member-description">Complete Projects</p>
                 <div class="picture-container">
-                    <img src="./img/person1.png" class="member-picture">
+                    <img src="../PUBLIC/img/person1.png" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -114,7 +114,7 @@
                 <p class="subscribe-number">1080K</p>
                 <p class="member-description">Satisfied Clients</p>
                 <div class="picture-container">
-                    <img src="img/person2.png" class="member-picture">
+                    <img src="../PUBLIC/img/person2.png" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -130,7 +130,7 @@
                 <p class="subscribe-number">608</p>
                 <p class="member-description">Team Members</p>
                 <div class="picture-container">
-                    <img src="img/person3.png" class="member-picture">
+                    <img src="../PUBLIC/img/person3.png" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -146,7 +146,7 @@
                 <p class="subscribe-number">252</p>
                 <p class="member-description">Employee</p>
                 <div class="picture-container">
-                    <img src="img/person4.png" class="member-picture">
+                    <img src="../PUBLIC/img/person4.png" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -185,7 +185,7 @@
             <div class="blog-cards">
                 <div class ="image-hover">
                     <div class="blog-picture">
-                        <img src="img/blog1.png" class="blog-image">
+                        <img src="../PUBLIC/img/blog1.png" class="blog-image">
                         <div class="blog-description">
                             <div class="blog-name"><i class="fa-regular fa-user"></i> Calvin Carlo</div>
                             <div class="blog-date"><i class="fa-regular fa-clock"></i> 20th March 2021</div>
@@ -198,7 +198,7 @@
             <div class="blog-cards">
                 <div class ="image-hover">
                     <div class="blog-picture">
-                        <img src="img/blog2.png" class="blog-image">
+                        <img src="../PUBLIC/img/blog2.png" class="blog-image">
                         <div class="blog-description">
                             <div class="blog-name"><i class="fa-regular fa-user"></i> Ruben Reed</div>
                             <div class="blog-date"><i class="fa-regular fa-clock"></i> 01th July 2021</div>
@@ -211,7 +211,7 @@
             <div class="blog-cards">
                 <div class ="image-hover">
                     <div class="blog-picture">
-                        <img src="img/blog3.png" class="blog-image">
+                        <img src="../PUBLIC/img/blog3.png" class="blog-image">
                         <div class="blog-description">
                             <div class="blog-name"><i class="fa-regular fa-user"></i> Theresa Sinclair</div>
                             <div class="blog-date"><i class="fa-regular fa-clock"></i> 25th July 2021</div>

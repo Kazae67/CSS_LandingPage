@@ -1,6 +1,6 @@
 <?php
 // Nécessaires pour la connexion à la base de données.
-require_once 'db-functions.php';
+require_once '../DB/db-functions.php';
 
 // Functions
 ajouterCommande(); // Incrémente à chaque clic
@@ -9,13 +9,13 @@ formatValue($value);
 ?>
 
 <!-- CSS -->
-<link rel="stylesheet" href="pricing.css">
-<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="css/pricing.css">
+<link rel="stylesheet" href="css/navbar.css">
 
 <!-- Navbar -->
 <nav class="navbar">
   <a href="pricing.php" class="nav-link">Home</a>
-  <a href="admin.php" class="nav-link">Admin</a>
+  <a href="../DB/admin.php" class="nav-link">Admin</a>
 </nav>
 
 <!-- container formules -->

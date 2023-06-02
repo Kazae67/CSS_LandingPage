@@ -78,7 +78,7 @@ function updateForm($db) { // (1)
         if($update->rowCount() > 0){ // (7)
             var_dump($update);
             echo "Vous avez bien modifié votre formule";
-            header("Location: pricing.php");
+            header("Location: ../PUBLIC/pricing.php");
             exit;
         }else{
             echo "Malheureusement vous n'avez pas réussi à modifier votre formule";

@@ -607,6 +607,50 @@ button:hover {
     font-weight:600;
 }
 
+/* FOOTER */
+
+#footer.section{
+    padding: 80px 0;
+    height: 25vh;
+}
+#footer {
+    background: rgb(36, 33, 33);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.footer-social i {
+    margin-right: 10px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
     .container {

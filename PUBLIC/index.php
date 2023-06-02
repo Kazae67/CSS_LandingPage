@@ -18,12 +18,12 @@
             <ul class="nav-links">
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#features">FEATURES</a></li>
-                <li><a href="#client">CLIENT</a></li>
+                <li><a href="#team">CLIENT</a></li>
                 <li><a href="pricing.php">PRICING</a></li>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#blog">BLOG</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#footer">CONTACT</a></li>
             </ul>
 
             <!-- SOCIAL ICONS -->
@@ -246,7 +246,7 @@
             </div>
         </div>
         <div class="footer-links">
-            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Terms & Conditions</a>
             <a href="#">Privacy Policy</a>
             <a href="#">Contact Us</a>
         </div>

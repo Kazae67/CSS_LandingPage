@@ -82,7 +82,7 @@ foreach ($formules as $formule) {
         ?>
         <!-- Formulaire -->
         <div class="admin-form-box">
-            <form action="pricing.php" method="POST"> <!--(5)-->
+            <form action="admin.php" method="POST"> <!--(5)-->
                 <h2><?php echo $name; ?></h2>
                 <input type="hidden" name="formule" value="<?php echo $name; ?>"> <!--(6)-->
 
@@ -141,6 +141,7 @@ foreach ($formules as $formule) {
 
                 <!-- Bouton de soumission -->
                 <input type="submit" name="update" value="Update">
+
             </form>
         </div>
         <?php

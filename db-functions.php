@@ -46,7 +46,7 @@ function connection(){
 // Met à jour des données du formulaire dans la base de données
 function updateForm($db) { // (1)
     if (isset($_POST['update'])) { // (2)
-
+        
         // Vérification des données envoyées
         $formule = $_POST['name']; // (3)
         $prix = $_POST['price'];
@@ -76,8 +76,9 @@ function updateForm($db) { // (1)
 
         // Message de validation de la modification formulaire
         if($update->rowCount() > 0){ // (7)
+            var_dump($update);
             echo "Vous avez bien modifié votre formule";
-            header("Location: public/index.php");
+            header("Location: pricing.php");
             exit;
         }else{
             echo "Malheureusement vous n'avez pas réussi à modifier votre formule";

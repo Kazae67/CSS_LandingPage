@@ -191,6 +191,10 @@
                             <div class="blog-date"><i class="fa-regular fa-clock"></i> 20th March 2021</div>
                         </div> 
                     </div>
+                </div>
+                <div class="card-description">   
+                    <h1>Doing a cross country road trip</h1>
+                    <p>We craft digital, graphic and dimensional thinking, to create category leading brand.</p>
                 </div>    
             </div> 
 
@@ -204,7 +208,11 @@
                             <div class="blog-date"><i class="fa-regular fa-clock"></i> 01th July 2021</div>
                         </div> 
                     </div>
-                </div>   
+                </div>
+                <div class="card-description">   
+                    <h1>Doing a cross country road trip</h1>
+                    <p>We craft digital, graphic and dimensional thinking, to create category leading brand.</p>
+                </div>
             </div> 
 
             <!-- DROITE -->
@@ -217,6 +225,10 @@
                             <div class="blog-date"><i class="fa-regular fa-clock"></i> 25th July 2021</div>
                         </div> 
                     </div>
+                </div>
+                <div class="card-description">   
+                    <h1>Doing a cross country road trip</h1>
+                    <p>We craft digital, graphic and dimensional thinking, to create category leading brand.</p>
                 </div>
             </div>    
     </section>

@@ -608,10 +608,9 @@ button:hover {
 }
 
 /* FOOTER */
-
 #footer.section{
     padding: 80px 0;
-    height: 25vh;
+    height: 23vh;
 }
 #footer {
     background: rgb(36, 33, 33);
@@ -634,6 +633,11 @@ button:hover {
 
 .footer-social i {
     margin-right: 10px;
+    background-color: none;
+    color: white;
+    border-radius: 50%;
+    padding: 12px;
+    border: 2px solid white;
 }
 
 .footer-links {

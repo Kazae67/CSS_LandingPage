@@ -443,7 +443,6 @@ button:hover {
     transform:scale(1.10)
 }
 
-
 /* PARALLAX */ 
 .parallax {
     position:relative;
@@ -574,6 +573,16 @@ button:hover {
     visibility: visible;
 }
 
+/* Card Description */ 
+.card-description h3{
+    text-align:left;
+    margin-top:15px;
+}
+
+.card-description p{
+    color:red;
+    text-align:left;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {

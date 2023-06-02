@@ -193,7 +193,7 @@
                     </div>
                 </div>
                 <div class="card-description">   
-                    <h1>Doing a cross country road trip</h1>
+                    <h3>Doing a cross country road trip</h3>
                     <p>We craft digital, graphic and dimensional thinking, to create category leading brand.</p>
                 </div>    
             </div> 
@@ -210,7 +210,7 @@
                     </div>
                 </div>
                 <div class="card-description">   
-                    <h1>Doing a cross country road trip</h1>
+                    <h3>Doing a cross country road trip</h3>
                     <p>We craft digital, graphic and dimensional thinking, to create category leading brand.</p>
                 </div>
             </div> 
@@ -227,7 +227,7 @@
                     </div>
                 </div>
                 <div class="card-description">   
-                    <h1>Doing a cross country road trip</h1>
+                    <h3>Doing a cross country road trip</h3>
                     <p>We craft digital, graphic and dimensional thinking, to create category leading brand.</p>
                 </div>
             </div>    

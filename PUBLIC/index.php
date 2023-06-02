@@ -236,7 +236,25 @@
             </div>    
     </section>
 
-    <!-- Les autres sections à venir -->
+    <footer id="footer" class="section">
+        <div class="footer-container">
+            <div class="footer-social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-google-plus"></i>
+            </div>
+        </div>
+        <div class="footer-links">
+            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-text">
+            2022 &copy; Kucra - Landing Page Template by Pichforest
+        </div>
+    </footer>
+</body>
 
 </body>
 </html>

@@ -597,6 +597,14 @@ button:hover {
 .card-description p{
     text-align:left;
     font-size:1rem;
+    margin-top:12px;
+    margin-bottom:12px;
+}
+
+.card-description a{
+    color:rgba(87, 151, 236, 0.856);
+    text-decoration:none;
+    font-weight:600;
 }
 
 /* MEDIA QUERIES */

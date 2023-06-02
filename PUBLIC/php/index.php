@@ -29,7 +29,7 @@
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#blog">BLOG</a></li>
-                <li><a href="#footer">CONTACT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
 
             <!-- SOCIAL ICONS -->
@@ -92,8 +92,8 @@
     <!-- FAQ ? -->
     <section id="faq" class="section">
         <div class="faq-title">
-            <h1></h1>
-            <p></p>
+            <h1>How It Works ?</h1>
+            <p>It is a long established fact that a reader will be on a page when established fact looking at it's layout.</p>
         </div>
     </section>
 

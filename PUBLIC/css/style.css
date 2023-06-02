@@ -541,6 +541,42 @@ button:hover {
     background-color: rgba(255, 255, 255, 0.356);
 }
 
+
+/* ABOUT */
+#about {
+  display: flex;
+}
+
+.left-container {
+  width: 50%;
+}
+
+.right-container {
+  width: 50%;
+}
+
+.about-info {
+  display: flex;
+}
+
+.about-info div {
+  width: 15%;
+}
+
+.learn-more-btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 15px 22px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.right-container img {
+  width: 100%;
+}
+
+
 /* BLOG */
 #blog.section{
     background:white;

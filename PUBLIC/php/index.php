@@ -24,12 +24,12 @@
             <ul class="nav-links">
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#features">FEATURES</a></li>
-                <li><a href="#team">CLIENT</a></li>
+                <li><a href="#client">CLIENT</a></li>
                 <li><a href="pricing.php">PRICING</a></li>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#blog">BLOG</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#team">CONTACT</a></li>
             </ul>
 
             <!-- SOCIAL ICONS -->
@@ -175,7 +175,6 @@
         </div>
     </section>
     
-
     <!-- PARALLAX -->
     <section class="parallax" class="section">
         <div class="container-parallax">
@@ -185,6 +184,33 @@
         </div>
     </section>
 
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+        <!-- GAUCHE -->
+        <div class="left-container">
+            <div class="about-title">
+                <h1>We are digital creating Landing Page</h1>
+                <p>The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack of will. Composed in a pseudo-Latin language which more or less pseudo-Latin language corresponds.</p>
+            </div>
+            <div class="about-info">
+                <div class="about-number">
+                    <h3>4957</h3>
+                    <p>Happy User</p>
+                </div>
+                <div class="about-task">
+                    <h3>1599+</h3>
+                    <p>Complete Project</p>
+                </div>
+            </div>
+            <button class="learn-more-btn">Learn more</button>
+        </div>
+
+    <!-- DROITE -->
+        <div class="right-container">
+            <img src="../img/creativity.png" alt="Creativity Image">
+        </div>
+    </section>
 
     <!-- BLOG -->
     <section id="blog" class="section">

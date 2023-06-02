@@ -209,6 +209,7 @@ button:hover {
 
 #features.section {
     background: white;
+    text-align:center;
 }
 
 #features.section h1 {
@@ -217,14 +218,17 @@ button:hover {
     justify-content: center;
 }
 
-.section p {
+#features.section p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: rgba(0, 0, 0, 0.425);
+    color: rgba(0, 0, 0, 0.336);
+    font-weight:600;
 }
-.container-features p {
-    color: white;
+#features.section .left-container-features p,
+#features.section .middle-container-features p,
+#features.section .right-container-features p {
+    color: rgba(255, 255, 255, 0.774);
     margin-bottom: 20px;
     margin-top: 15px;
 }
@@ -340,8 +344,14 @@ button:hover {
     text-align: center;
 }
 .team-title p{
-    max-width: 650px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
+    max-width:700px;    
+    color: rgba(0, 0, 0, 0.336);
+    font-weight:600;
+
 }
 
 .container-team{
@@ -580,8 +590,8 @@ button:hover {
 }
 
 .card-description p{
-    color:red;
     text-align:left;
+    font-size:1rem;
 }
 
 /* MEDIA QUERIES */

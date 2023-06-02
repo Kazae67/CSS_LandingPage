@@ -195,6 +195,7 @@
                 <div class="card-description">   
                     <h3>Doing a cross country road trip</h3>
                     <p>We craft digital, graphic and dimensional thinking, to create category leading brand.</p>
+                    <a href="readmore">Read more</a>
                 </div>    
             </div> 
 
@@ -210,8 +211,9 @@
                     </div>
                 </div>
                 <div class="card-description">   
-                    <h3>Doing a cross country road trip</h3>
-                    <p>We craft digital, graphic and dimensional thinking, to create category leading brand.</p>
+                    <h3>New exhibition at our Museum</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind almost unorthographic.</p>
+                    <a href="readmore">Read more</a>
                 </div>
             </div> 
 
@@ -227,8 +229,9 @@
                     </div>
                 </div>
                 <div class="card-description">   
-                    <h3>Doing a cross country road trip</h3>
-                    <p>We craft digital, graphic and dimensional thinking, to create category leading brand.</p>
+                    <h3>Design your apps in your own way</h3>
+                    <p>Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+                    <a href="readmore">Read more</a>
                 </div>
             </div>    
     </section>

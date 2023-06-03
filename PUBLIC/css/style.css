@@ -697,6 +697,27 @@ button:hover {
   margin-top:75px
 }
 
+/*** PRICING ***/
+.pricing-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.pricing-title h1{
+    text-align:center;
+}
+
+.pricing-title p{
+    max-width: 550px;
+    text-align: center;
+    font-weight:600;
+    color: rgba(0, 0, 0, 0.336);
+}
+
 
 /*** BLOG ***/
 #blog.section{

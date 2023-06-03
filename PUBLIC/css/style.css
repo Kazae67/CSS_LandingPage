@@ -1,23 +1,23 @@
+/*** STANDARD ***/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-/* BODY */
+/*** BODY ***/
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f2f2f2;
 }
 
-/* SECTIONS NORMES */
+/*** SECTIONS NORMES ***/
 .section {
     padding: 80px 0;
     height: 100vh;
 }
 
-/* STYLES NORMES */
+/*** STYLES NORMES ***/
 h1 {
     font-size: 40px;
     font-weight: 900;
@@ -38,7 +38,8 @@ p {
     margin-top: 10px;
 }
 
-/* LOGO */
+/*** LOGO ***/
+/* Container */
 .logo-container {
     position: absolute;
     top: 10px;
@@ -48,13 +49,14 @@ p {
     padding: 10px 30px;
 }
 
+/* Container H1 */
 .logo-container h1 {
     color: white;
     font-size: 35px;
     margin: 0;
 }
 
-/* NAVBAR */
+/*** NAVBAR ***/
 .navbar {
     display: flex;
     justify-content: center;
@@ -70,15 +72,18 @@ p {
     font-weight: bold;
 }
 
+/* Links */
 .nav-links {
     list-style: none;
     display: flex;
 }
 
+/* Links Li */
 .nav-links li {
     margin-right: 10px;
 }
 
+/* Links A */
 .nav-links a {
     text-decoration: none;
     color: white;
@@ -87,11 +92,12 @@ p {
     transition: color 0.5s ease;
 }
 
+/* Hover Links A */
 .nav-links a:hover {
     color: rgba(255, 255, 255, 0.671);
 }
 
-/* SOCIALES */
+/*** SOCIALES ***/
 .social-container {
     position: fixed;
     top: 43px;
@@ -100,24 +106,26 @@ p {
     text-decoration: none;
 }
 
+/* Container Li */
 .social-container li {
     margin-right: 10px;
     text-decoration: none;
     display: inline-block;
 }
 
+/* Container A */
 .social-container a {
     text-decoration: none;
     color: #fff;
     transition: color 0.5s ease;
 }
 
+/* Hover Container A */
 .social-container a:hover {
     color: rgba(255, 255, 255, 0.671);
 }
 
-/* HOME */ 
-/* section */
+/*** HOME ***/ 
 #home.section {
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     background-attachment: fixed;
@@ -125,7 +133,7 @@ p {
     background-size: cover;
 }
 
-/* containeur */
+/* Container */
 .container-home {
     display: flex;
     justify-content: space-between;
@@ -135,40 +143,45 @@ p {
     padding: 32px;
 }
 
-/* containeur gauche et droite */
+/* Container gauche et droite */
 .left-container-home,
 .right-container-home {
     width: 100%;
 }
 
+/* container gauche */
 .left-container-home {
     padding-right: 50px;
     margin-right: -20px;
 }
 
+/* Container droite */
 .right-container-home {
     padding-left: 0px;
     margin-left: auto;
 }
 
+/* Img */
 .right-container-home img {
     width: 110%;
     max-width: 110%;
     height: 600px;
 }
 
-/* EMAIL */
+/*** EMAIL ***/
 .email-form {
     position: relative;
     display: flex;
     align-items: center;
 }
 
+/* Container */
 .email-container {
     position: relative;
     display: inline-block;
 }
 
+/* Input */
 input[type="email"] {
     padding: 10px;
     border: none;
@@ -179,6 +192,7 @@ input[type="email"] {
     height: 55px;
 }
 
+/* Button */
 .email-form button {
     padding: 10px 20px;
     background-color: #1294b8;
@@ -195,18 +209,26 @@ input[type="email"] {
     transition: background-color 0.3s ease;
 }
 
+/* Hover Button */
 button:hover {
     background-color: #1294b8c4;
 }
 
-/* FEATURES */
-/* container */
+/*** FEATURES ***/
+/* Section */
+#features.section {
+    background: white;
+    text-align:center;
+}
+
+/* Container */
 .container-features {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
+/* Title */
 .features-title{
     display: flex;
     flex-direction: column;
@@ -216,16 +238,14 @@ button:hover {
     margin-top: 100px;
 }
 
-#features.section {
-    background: white;
-    text-align:center;
-}
 
+/* H1 */
 #features.section h1 {
     display: flex;
     justify-content: center;
 }
 
+/* P */
 #features.section p {
     display: flex;
     flex-wrap: wrap;
@@ -233,6 +253,8 @@ button:hover {
     color: rgba(0, 0, 0, 0.336);
     font-weight:600;
 }
+
+/* All Containers */
 #features.section .left-container-features p,
 #features.section .middle-container-features p,
 #features.section .right-container-features p {
@@ -241,7 +263,7 @@ button:hover {
     margin-top: 15px;
 }
 
-/* hover */
+/* All Containers Hover */
 .container-features .left-container-features:hover,
 .container-features .middle-container-features:hover,
 .container-features .right-container-features:hover {
@@ -249,14 +271,14 @@ button:hover {
     transition: transform 0.5s ease;
 }
 
-/* transition */
+/* All Containers Transitions */
 .container-features .left-container-features,
 .container-features .middle-container-features,
 .container-features .right-container-features {
     transition: transform 0.3s ease;
 }
 
-/* containeur gauche */
+/* Container gauche */
 .left-container-features {
     color: white;
     position: relative;
@@ -271,19 +293,19 @@ button:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17);
 }
 
-/* icons */
+/* Icons gauche */
 .left-container-features .fa-sharp {
     color: white;
     font-size: 3.2em;
 }
 
-/* espacement hauteur */
+/* Icons Espacement hauteur */
 .fa-solid {
     margin-bottom: 35px;
     margin-top: 40px;
 }
 
-/* container millieu */
+/* Container Millieu */
 .middle-container-features {
     color: white;
     position: relative;
@@ -307,7 +329,7 @@ button:hover {
     color: white;
 }
 
-/* container droit */
+/* Container Droite */
 .right-container-features {
     color: white;
     position: relative;
@@ -322,24 +344,28 @@ button:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17);
 }
 
+/* Fa-solid */
 .right-container-features .fa-solid {
     color: white;
     font-size: 3.2em;
 }
 
+/* Container Droite P */
 .right-container-features p {
     color: white;
 }
 
+/* Container P */
 .container-features p {
     font-size: 1em;
 }
 
-/* FAQ */
+/*** FAQ ***/
 #faq.section{
     background-color:rgba(0, 0, 0, 0);
 }
 
+/* Title */
 .faq-title{
     display: flex;
     flex-direction: column;
@@ -348,11 +374,14 @@ button:hover {
     margin: auto;
     margin-top: 100px;
 }
+
+/* Title H1 */
 .faq-title h1{
     text-align:center;
     color:black;
 }
 
+/* Title P */
 .faq-title p{
     text-align:center;
     color:rgba(0, 0, 0, 0.336);
@@ -360,11 +389,12 @@ button:hover {
     max-width:600px;
 }
 
-/* TEAM */
+/*** TEAM ***/
 #team.section{
     background: white;
 }
 
+/* Title */
 .team-title{
     display: flex;
     flex-direction: column;
@@ -373,10 +403,14 @@ button:hover {
     margin: auto;
     margin-top: 100px;
 }
+
+/* Title H1 */
 .team-title h1{
     text-align: center;
     max-width:800px;
 }
+
+/* Title P */
 .team-title p{
     display: flex;
     flex-wrap: wrap;
@@ -386,6 +420,8 @@ button:hover {
     color: rgba(0, 0, 0, 0.336);
     font-weight:600;
 }
+
+/* Container */
 .container-team{
     display: flex;
     flex-wrap: wrap;
@@ -393,6 +429,7 @@ button:hover {
     align-items: center;
 }
 
+/* Picture */
 .picture-container{
     position: relative;
     width: 215px;
@@ -413,48 +450,53 @@ button:hover {
     transition: 1s;
 }
 
+/* Member */
 .team-member{
     margin: 50px;
 }
 
-/* subscribe */
+/* Number */
 .subscribe-number{
     text-align: center;
     font-size: 30px;
 }
+
 .team-member .subscribe-number{
     color:black;
     font-weight:bolder;
 }
 
-/* description */
+/* Description */
 .member-description{
     margin-bottom: 40px;
 }
+
 .team-member .member-description{
     margin-top:-20px;
     text-align:center;
     font-weight:bolder;
-    color: rgba(0, 0, 0, 0.336);
-    
+    color: rgba(0, 0, 0, 0.336); 
 }
 
+/* Name */
 .name-member{
     text-align: center;
 }
+
 .team-member .name-member{
     color:black;
     font-weight:bolder;
     margin-bottom:10px;
 }
 
+/* Job */
 .job-member{
     text-align: center;
     color:rgb(167, 167, 167);
     margin-bottom: 60px;
 }
 
-/* icons */
+/* Icons */
 .team-icons{
     flex-direction: column;
     position: absolute;
@@ -463,6 +505,7 @@ button:hover {
     transition: all 1s ease-out;
 }
 
+/* Icons I */
 .team-icons i{
     display: flex;
     justify-content: center;
@@ -476,20 +519,20 @@ button:hover {
     color: black;
 }
 
-/*hover icons*/
+/* Icons Hover */
 .picture-container:hover .team-icons{
     transform: translateY(75px) translateX(70px);
     transition: 0.5s;
 }
 
-/* hover couleur */
+/* Picture Transition  */
 .picture-container:hover .member-picture{
     filter: grayscale(0);
     transition: 0.8s;
     transform:scale(1.10)
 }
 
-/* PARALLAX */ 
+/*** PARALLAX ***/ 
 .parallax {
     position:relative;
     height: 60vh;
@@ -500,6 +543,7 @@ button:hover {
     background-repeat: no-repeat;
 }
 
+/* Container */
 .container-parallax{
     height: 60vh;
     display: flex;
@@ -509,10 +553,12 @@ button:hover {
     background-color: rgba(22, 22, 22, 0.582);
 }
 
+/* Title */
 .parallax-title {
     color: white;
 }
 
+/* Text */
 .parallax-text {
     color: rgba(255, 255, 255, 0.733);
     max-width: 1050px;
@@ -520,6 +566,7 @@ button:hover {
     font-weight:600px;
 }
 
+/* Button */
 .parallax-button {
     width: 200px;
     height: 55px;
@@ -532,22 +579,24 @@ button:hover {
     transition: 0.6s;
 }
 
+/* Button A */
 .parallax-button a {
     text-decoration: none;
     color:white;
 }
 
+/* Hover Button */
 .parallax-button:hover {
     background-color: rgba(255, 255, 255, 0.356);
 }
 
-
-/* CLIENT */
+/*** CLIENT ***/
 #client.section {
     text-align: center;
     background-color:rgba(0, 0, 0, 0);
 }
 
+/* Title */
 .client-title {
     display: flex;
     flex-direction: column;
@@ -557,6 +606,7 @@ button:hover {
     margin-top: 100px;
 }
 
+/* Title P */
 .client-title p {
     text-align:center;
     max-width:550px;
@@ -565,6 +615,7 @@ button:hover {
     margin-bottom:50px;
 }
 
+/* Client Images */
 .client-images img {
     width: 100px; 
     height: 100px;
@@ -572,35 +623,34 @@ button:hover {
     flex-wrap:wrap;
 }
 
-  
-/* ABOUT */
+/*** ABOUT ***/
 #about {
   display: flex;
   background-color:white;
 }
 
+/* Container Gauche */
 .left-container {
   width: 50%;
-
 }
 
+/* Title */
 .left-container .about-title{
     margin-top:100px;
 }
 
+/* Container Droite */
 .right-container {
   width: 50%;
 }
 
-.right-container img{
-    margin-top:75px
-}
-
+/* Container H1 */
 .left-container h1{
     font-size:32px;
     margin-left:100px;
 }
 
+/* Container P */
 .left-container p{
     margin-left:100px;
     margin-top:50px;
@@ -609,6 +659,7 @@ button:hover {
     color:rgba(0, 0, 0, 0.336);
 }
 
+/* Info */
 .about-info {
   display: flex;
   margin-left:100px;
@@ -616,15 +667,18 @@ button:hover {
   font-size:30px;
 }
 
+/* Info P */
 .about-info p{
     margin-left:0px;
     margin-top:10px;
 }
 
+/* Espacement task/number */
 .about-info div {
   width: 20%;
 }
 
+/* Button */
 .about-btn {
   background-color: rgb(53, 122, 226);
   color: white;
@@ -637,16 +691,19 @@ button:hover {
   cursor: pointer;
 }
 
+/* Img */
 .right-container img {
   width: 80%;
+  margin-top:75px
 }
 
 
-/* BLOG */
+/*** BLOG ***/
 #blog.section{
     background:white;
 }
 
+/* Title */
 .blog-title{
     display: flex;
     flex-direction: column;
@@ -656,16 +713,17 @@ button:hover {
     margin-top:100px;
 }
 
+/* Title H1 */
+.blog-title h1{
+    text-align:center;
+}
+
+/* Title P */
 .blog-title p{
     max-width: 550px;
     text-align: center;
     font-weight:600;
     color: rgba(0, 0, 0, 0.336);
-}
-
-/* Title */
-.blog-title h1{
-    text-align:center;
 }
 
 /* Container */
@@ -685,6 +743,7 @@ button:hover {
     visibility: hidden;
 }
 
+/* Name */
 .blog-name{
     font-weight:900;
 }
@@ -699,7 +758,7 @@ button:hover {
     flex-direction: column;
 }
 
-/* hover */
+/* Image */
 .blog-image{
     margin-top:-60px;
     width: 320px;
@@ -709,15 +768,18 @@ button:hover {
     border-radius: 10px;
 }
 
+/* Hover Image Intérieur */
 .image-hover{
     position: relative;
 }
 
+/* Transition Hover Image */
 .blog-image:hover{
     transition: 0.4s;
     filter: brightness(65%);
 }
 
+/* Transition Hover Description */ 
 .blog-picture:hover .blog-description{
     transition: 2s;
     visibility: visible;
@@ -729,6 +791,7 @@ button:hover {
     margin-top:15px;
 }
 
+/* Description P */
 .card-description p{
     text-align:left;
     font-size:1rem;
@@ -736,17 +799,21 @@ button:hover {
     margin-bottom:12px;
 }
 
+/* Description A */
 .card-description a{
     color:rgba(87, 151, 236, 0.856);
     text-decoration:none;
     font-weight:600;
 }
 
-/* FOOTER */
+/*** FOOTER ***/
+/* Section */
 #footer.section{
     padding: 80px 0;
     height: 23vh;
 }
+
+/* ID */
 #footer {
     background: rgb(36, 33, 33);
     color:  rgba(255, 255, 255, 0.459);
@@ -755,12 +822,14 @@ button:hover {
     font-weight:600;
 }
 
+/* Container */
 .footer-container {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
+/* Social */
 .footer-social {
     display: flex;
     align-items: center;
@@ -768,6 +837,7 @@ button:hover {
     margin-top:-15px;
 }
 
+/* Social I */
 .footer-social i {
     margin-right: 10px;
     background-color: none;
@@ -778,27 +848,30 @@ button:hover {
     margin-left:30px;
 }
 
+/* Links */
 .footer-links {
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;   
 }
 
+/* Links A */
 .footer-links a {
     color:  rgba(255, 255, 255, 0.459);
     text-decoration: none;
     margin-right: 10px;
 }
 
+/* Content Espacement | */
 .footer-links a:not(:last-child)::after {
     content: "\00a0\00a0\00a0|";
-
 }
 
+/* Text */
 .footer-text {
     font-size: 14px;
 }
 
-/* SCROLL TOP */
+/*** SCROLL TOP ***/
+/* ID */
 #scroll-button {
     position: fixed;
     bottom: 50px;
@@ -815,17 +888,18 @@ button:hover {
     z-index:999;
 }
 
+/* Button I */
 #scroll-button i {
     text-align:center;
     font-size:24px;   
 }
 
+/* Hover Button */
 #scroll-button:hover {
     background-color: #555;
 }
 
-
-/* MEDIA QUERIES */
+/*** MEDIA QUERIES ***/
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;

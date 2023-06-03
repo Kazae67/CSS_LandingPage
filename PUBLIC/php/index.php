@@ -273,11 +273,11 @@ formatValue($value);
     <!---------- PRICING ---------->
     <section id="pricing" class="section">
         <!-- CONTAINER -->
+        <div class="pricing-title">
+            <h1>Our Pricing</h1>
+            <p>It is a long established fact that a reader will be of a page when established fact looking at it's layout.</p>
+        </div>
         <div class="pricing-container">
-            <div class="pricing-title">
-                <h1>Our Pricing</h1>
-                <p>It is a long established fact that a reader will be of a page when established fact looking at it's layout.</p>
-            </div>
             <?php
             /** AFFICHAGE FORMULES
              * (1) Une requête SQL est exécutée pour récupérer toutes les lignes de la table pricing_db de la base de données.
@@ -358,6 +358,8 @@ formatValue($value);
             }
             ?>
             </div> 
+        </div>
+    </section>
 
 
     <!---------- BLOG ---------->

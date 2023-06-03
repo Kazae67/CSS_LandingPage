@@ -723,16 +723,15 @@ button:hover {
   display: flex;
   justify-content: center; 
   align-items: center;
-  flex-wrap: wrap; 
 }
 .pricing-box {
     background: white;
     position: relative;
     width: 340px;
-    height: 410px;
+    height: 460px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     margin: 10px;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17);
@@ -740,7 +739,8 @@ button:hover {
 
 .pricing-box h2 {
     font-size: 18px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
+    margin-top:16px;
 }
 
 .pricing-box p {
@@ -759,9 +759,9 @@ button:hover {
     right: 0;
     font-size: 14px;
     font-weight: bold;
-    color: #ffffff;
-    background-color: rgb(63, 134, 228);
-    padding: 14px 10px;
+    color: #ffffffcb;
+    background-color: rgb(54, 117, 199);
+    padding: 14px 12px;
     text-align: left;
     border-radius: 0px 10px 0px 12px;
     margin-top: 0px;

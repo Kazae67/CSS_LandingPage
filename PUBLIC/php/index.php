@@ -9,18 +9,20 @@
 </head>
 <body>
     <header>
-    <!-- SCROLL TOP -->
+    <!---------- SCROLL TOP ---------->
     <button onclick="scrollToTop()" id="scroll-button">
         <i class="fas fa-arrow-up"></i>
     </button>
 
 
-        <!-- LOGO -->
+        <!--LOGO -->
         <div class="logo-container">
             <h1>Kucra</h1>
         </div>
-        <!-- NAVBAR -->
+
+        <!---------- NAVBAR ---------->
         <nav class="navbar"> 
+            <!-- LINKS -->
             <ul class="nav-links">
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#features">FEATURES</a></li>
@@ -41,13 +43,17 @@
         </nav>
     </header>
 
-    <!-- HOME -->
+
+    <!---------- HOME ---------->
     <section id="home" class="section">
         <div class="container-home">
+
             <!-- GAUCHE -->
             <div class="left-container-home">
                 <h1>We are StartUp Creative Kucra Agency</h1>
                 <p>Carefully crafted after analyzing the needs of different industries, and the design achieves a great balance between purpose & presentation.</p>
+
+                <!-- FORM EMAIL -->
                 <form class="email-form" action="" method="post">
                     <div class="email-container">
                         <input type="email" name="email" placeholder="Enter your email" required>
@@ -63,25 +69,31 @@
         </div>
     </section>
 
-    <!-- FEATURES -->
+
+    <!---------- FEATURES ---------->
     <section id="features" class="section">
         <div class="features-title">
             <h1>Products Features</h1>
             <p>It is a long established fact that a reader will be of a page when established fact looking at it's layout</p>
         </div>
+
+        <!-- CONTAINER -->
         <div class="container-features">
+
             <!-- GAUCHE -->
             <div class="left-container-features">
                 <i class="fa-sharp fa-solid fa-globe"></i>
                 <h2>Digital Design</h2>
                 <p>Some quick example text to build on the card title and make up the build of the card the platform.</p>
             </div>
+
             <!-- MILLIEU -->
             <div class="middle-container-features">
                 <i class="fa-sharp fa-solid fa-brush"></i>
                 <h2>Unlimited Colors</h2>
                 <p>Credibly brand stanaads compliant user exteible services College Anibh ocean euismod tincidunt laoreet.</p>
             </div>
+
             <!-- DROITE -->
             <div class="right-container-features">
                 <i class="fa-solid fa-chess"></i>
@@ -91,16 +103,20 @@
         </div>
     </section>
 
-    <!-- FAQ ? -->
+
+    <!---------- FAQ ---------->
     <section id="faq" class="section">
+        <!-- TITLE -->
         <div class="faq-title">
             <h1>How It Works ?</h1>
             <p>It is a long established fact that a reader will be on a page when established fact looking at it's layout.</p>
         </div>
     </section>
 
-    <!-- TEAM -->
+
+    <!---------- TEAM ---------->
     <section id="team" class="section">
+
         <!-- TITLE -->
         <div class="team-title">
             <h1>We'r dynamic team of talentend people of innovative & marketing expert</h1>
@@ -108,12 +124,13 @@
         </div>
         <!-- CONTAINER TEAM -->
         <div class="container-team">
-
+            
             <!-- MEMBRE 1 -->
             <div class="team-member">
                 <p class="subscribe-number">1499+</p>
                 <p class="member-description">Complete Projects</p>
                 <div class="picture-container">
+                    <!-- PICTURES -->
                     <img src="../img/person1.png" alt="Anna G. Wilhite" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
@@ -129,6 +146,7 @@
             <div class="team-member">
                 <p class="subscribe-number">1080K</p>
                 <p class="member-description">Satisfied Clients</p>
+                <!-- PICTURES -->
                 <div class="picture-container">
                     <img src="../img/person2.png" alt="William S. Blay" class="member-picture">
                     <div class="team-icons">
@@ -145,6 +163,7 @@
             <div class="team-member">
                 <p class="subscribe-number">608</p>
                 <p class="member-description">Team Members</p>
+                <!-- PICTURES -->
                 <div class="picture-container">
                     <img src="../img/person3.png" alt="Maria B. Morales" class="member-picture">
                     <div class="team-icons">
@@ -161,6 +180,7 @@
             <div class="team-member">
                 <p class="subscribe-number">252</p>
                 <p class="member-description">Employee</p>
+                <!-- PICTURES -->
                 <div class="picture-container">
                     <img src="../img/person4.png" alt="Luke L Johnston" class="member-picture">
                     <div class="team-icons">
@@ -175,22 +195,28 @@
         </div>
     </section>
     
-    <!-- PARALLAX -->
+
+    <!---------- PARALLAX ---------->
     <section class="parallax" class="section">
+        <!-- CONTAINER -->
         <div class="container-parallax">
+            <!-- TITLE -->
             <h2 class="parallax-title">Let's get started with Kucra</h2>
             <p class="parallax-text">They are a good way to get you started if you want to buils something similar or use from existing apps which will reduce the cost, efforts and time of the developpers.</p>
+            <!-- BUTTON -->
             <button class="parallax-button"><a href="#">Get Started</a></button>
         </div>
     </section>
 
 
-    <!-- CLIENT-->
+    <!---------- CLIENT ---------->
     <section id="client" class="section">
+        <!-- TITLE -->
         <div class="client-title">
             <h1>What your client says</h1>
             <p>The big Oxmox advised her not to do, because there were thousands of bad Commas, wild Question marks and devious pulvinar metus molestie sed Semikoli.</p>
         </div>
+        <!-- IMG -->
         <div class="client-images">
             <img src="../img/01.png" alt="Image 1">
             <img src="../img/02.png" alt="Image 2">
@@ -200,15 +226,18 @@
         </div>
     </section>
 
-    <!-- ABOUT -->
+
+    <!---------- ABOUT ---------->
     <section id="about" class="section">
 
         <!-- GAUCHE -->
         <div class="left-container">
+            <!-- TITLE -->
             <div class="about-title">
                 <h1>We are digital creating Landing Page</h1>
                 <p>The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack of will. Composed in a pseudo-Latin language which more or less pseudo-Latin language corresponds.</p>
             </div>
+            <!-- INFO -->
             <div class="about-info">
                 <div class="about-number">
                     <h3>4957</h3>
@@ -219,16 +248,21 @@
                     <p>Complete Project</p>
                 </div>
             </div>
+            <!-- BUTTON -->
             <button class="about-btn">Learn more</button>
         </div>
 
-    <!-- DROITE -->
+        <!-- DROITE -->
         <div class="right-container">
             <img src="../img/creativity.png" alt="Creativity Image">
         </div>
     </section>
 
-    <!-- BLOG -->
+
+    <!---------- PRICING ---------->
+
+
+    <!---------- BLOG ---------->
     <section id="blog" class="section">
         <!-- TITLE -->
         <div class="blog-title">
@@ -295,9 +329,11 @@
     </section>
 
 
-    <!-- FOOTER -->
+    <!---------- FOOTER ---------->
     <footer id="footer" class="section">
+        <!-- CONTAINER -->
         <div class="footer-container">
+            <!-- SOCIAL -->
             <div class="footer-social">
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-twitter"></i>
@@ -305,16 +341,20 @@
                 <i class="fab fa-google-plus"></i>
             </div>
         </div>
+        <!-- LINKS -->
         <div class="footer-links">
             <a href="#">Terms & Conditions</a>
             <a href="#">Privacy Policy</a>
             <a href="#">Contact Us</a>
         </div>
+        <!-- TEXT -->
         <div class="footer-text">
             2022 &copy; Kucra - Landing Page Template by Pichforest
         </div>
     </footer>
 
+
+    <!---------- SCRIPTS ---------->
     <script src="../js/scroll.js"></script>
 </body>
 </html>

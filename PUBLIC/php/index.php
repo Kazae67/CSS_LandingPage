@@ -199,7 +199,7 @@
                     <p>Happy User</p>
                 </div>
                 <div class="about-task">
-                    <h3>1599+</h3>
+                    <h3>1599</h3>
                     <p>Complete Project</p>
                 </div>
             </div>

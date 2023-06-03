@@ -549,31 +549,64 @@ button:hover {
 
 .left-container {
   width: 50%;
+
+}
+
+.left-container .about-title{
+    margin-top:100px;
 }
 
 .right-container {
   width: 50%;
 }
 
+.right-container img{
+    margin-top:75px
+}
+
+.left-container h1{
+    font-size:32px;
+    margin-left:100px;
+}
+
+.left-container p{
+    margin-left:100px;
+    margin-top:50px;
+    max-width:550px;
+    font-weight:600;
+    color:rgba(0, 0, 0, 0.336);
+}
+
 .about-info {
   display: flex;
+  margin-left:100px;
+  margin-top:70px;
+  font-size:30px;
+}
+
+.about-info p{
+    margin-left:0px;
+    margin-top:10px;
 }
 
 .about-info div {
-  width: 15%;
+  width: 20%;
 }
 
 .learn-more-btn {
-  background-color: blue;
+  background-color: rgb(53, 122, 226);
   color: white;
   border: none;
-  padding: 15px 22px;
+  border-radius:6px;
+  padding: 15px 42px;
+  margin-left:100px;
+  margin-top:40px;
   font-size: 16px;
   cursor: pointer;
 }
 
 .right-container img {
-  width: 100%;
+  width: 80%;
 }
 
 

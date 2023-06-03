@@ -716,19 +716,20 @@ button:hover {
     text-align: center;
     font-weight:600;
     color: rgba(0, 0, 0, 0.336);
+    margin-bottom:50px;
 }
 
 .pricing-container {
   display: flex;
-  justify-content: center; /* Centre horizontalement */
-  align-items: center; /* Centre verticalement */
-  flex-wrap: wrap; /* Permet aux pricing-box de passer à la ligne si nécessaire */
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: wrap; 
 }
 .pricing-box {
     background: white;
     position: relative;
     width: 300px;
-    height: 350px;
+    height: 400px;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
@@ -807,7 +808,8 @@ button:hover {
     background-color: rgb(64, 144, 248);  
     color: white;
     border: none;
-    padding: 10px 20px;
+    border-radius: 5px;
+    padding: 12px 90px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

@@ -728,10 +728,10 @@ button:hover {
 .pricing-box {
     background: white;
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 340px;
+    height: 410px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     margin: 10px;
     text-align: center;
@@ -739,17 +739,17 @@ button:hover {
 }
 
 .pricing-box h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 12px;
 }
 
 .pricing-box p {
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 15px;
 }
 
 .pricing-box .month {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 /* REDUCTION */
@@ -757,13 +757,13 @@ button:hover {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
     color: #ffffff;
     background-color: rgb(63, 134, 228);
-    padding: 8px 20px;
+    padding: 14px 10px;
     text-align: left;
-    border-radius: 0px 3px 0px 7px;
+    border-radius: 0px 10px 0px 12px;
     margin-top: 0px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17); 
 }
@@ -784,8 +784,7 @@ button:hover {
 .pricing-box .feature {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
 }
 
 /* MOIS */

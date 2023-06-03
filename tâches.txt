@@ -1,4 +1,4 @@
 - Finir les cards de pricing ainsi que la visu
 - Ajouter les fonctionnalitées de l'email 
-- Arranger les codes
-- PASSAGE AU @MEDIA Q.
+- Arranger les codes et effacer les contenus inutiles.
+- [FINAL] PASSAGE AU @MEDIA Q.

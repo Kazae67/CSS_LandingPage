@@ -114,7 +114,7 @@
                 <p class="subscribe-number">1499+</p>
                 <p class="member-description">Complete Projects</p>
                 <div class="picture-container">
-                    <img src="../img/person1.png" class="member-picture">
+                    <img src="../img/person1.png" alt="Anna G. Wilhite" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -130,7 +130,7 @@
                 <p class="subscribe-number">1080K</p>
                 <p class="member-description">Satisfied Clients</p>
                 <div class="picture-container">
-                    <img src="../img/person2.png" class="member-picture">
+                    <img src="../img/person2.png" alt="William S. Blay" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -146,7 +146,7 @@
                 <p class="subscribe-number">608</p>
                 <p class="member-description">Team Members</p>
                 <div class="picture-container">
-                    <img src="../img/person3.png" class="member-picture">
+                    <img src="../img/person3.png" alt="Maria B. Morales" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -162,7 +162,7 @@
                 <p class="subscribe-number">252</p>
                 <p class="member-description">Employee</p>
                 <div class="picture-container">
-                    <img src="../img/person4.png" class="member-picture">
+                    <img src="../img/person4.png" alt="Luke L Johnston" class="member-picture">
                     <div class="team-icons">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -183,6 +183,23 @@
             <button class="parallax-button"><a href="#">Get Started</a></button>
         </div>
     </section>
+
+
+    <!-- CLIENT-->
+    <section id="client" class="section">
+        <div class="client-title">
+            <h1>What your client says</h1>
+            <p>The big Oxmox advised her not to do, because there were thousands of bad Commas, wild Question marks and devious pulvinar metus molestie sed Semikoli.</p>
+        </div>
+        <div class="client-images">
+            <img src="../img/01.png" alt="Image 1">
+            <img src="../img/02.png" alt="Image 2">
+            <img src="../img/03.png" alt="Image 3">
+            <img src="../img/04.png" alt="Image 4">
+            <img src="../img/05.png" alt="Image 5">
+        </div>
+    </section>
+
 
     <!-- ABOUT -->
     <section id="about" class="section">

@@ -545,6 +545,7 @@ button:hover {
 /* ABOUT */
 #about {
   display: flex;
+  background-color:white;
 }
 
 .left-container {

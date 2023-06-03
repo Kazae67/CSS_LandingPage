@@ -200,7 +200,6 @@
         </div>
     </section>
 
-
     <!-- ABOUT -->
     <section id="about" class="section">
 

@@ -13,6 +13,7 @@ formatValue($value);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Landing Page CSS</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/a45e9c27c8.js" crossorigin="anonymous"></script>
 </head>
@@ -353,8 +354,6 @@ formatValue($value);
         }
         ?>
         </div> 
-        <!-- Fin Conteneur formules -->
-
 
 
     <!---------- BLOG ---------->

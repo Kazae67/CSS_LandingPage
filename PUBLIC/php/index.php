@@ -15,7 +15,7 @@
     </button>
 
 
-        <!--LOGO -->
+        <!---------- LOGO ---------->
         <div class="logo-container">
             <h1>Kucra</h1>
         </div>
@@ -34,7 +34,7 @@
                 <li><a href="#team">CONTACT</a></li>
             </ul>
 
-            <!-- SOCIAL ICONS -->
+            <!---------- SOCIAL ICONS ---------->
             <ul class="social-icons social-container">
                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
@@ -260,6 +260,7 @@
 
 
     <!---------- PRICING ---------->
+
 
 
     <!---------- BLOG ---------->

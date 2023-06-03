@@ -543,7 +543,7 @@ button:hover {
 
 
 /* CLIENT */
-.section {
+#client.section {
     text-align: center;
     background-color:rgba(0, 0, 0, 0);
 }
@@ -569,6 +569,7 @@ button:hover {
     width: 100px; 
     height: 100px;
     margin: 0px 50px;
+    flex-wrap:wrap;
 }
 
   
@@ -624,7 +625,7 @@ button:hover {
   width: 20%;
 }
 
-.learn-more-btn {
+.about-btn {
   background-color: rgb(53, 122, 226);
   color: white;
   border: none;

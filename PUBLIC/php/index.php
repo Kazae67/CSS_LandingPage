@@ -219,7 +219,7 @@
                     <p>Complete Project</p>
                 </div>
             </div>
-            <button class="learn-more-btn">Learn more</button>
+            <button class="about-btn">Learn more</button>
         </div>
 
     <!-- DROITE -->

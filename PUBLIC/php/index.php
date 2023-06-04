@@ -333,11 +333,11 @@ formatValue($value);
                     
                     // Fonctionnalités de la formule.
                     $features = [ // (7)
-                        ['label' => 'Bandwidth', 'value' => $bandwidth, 'symbol' => ($bandwidth > 0 ? '✓' : '×')],
-                        ['label' => 'Onlinespace', 'value' => $onlinespace, 'symbol' => ($onlinespace > 0 ? '✓' : '×')],
-                        ['label' => 'Support', 'value' => $support, 'symbol' => ($support == 'Yes' ? '✓' : '×')],
-                        ['label' => 'Domain', 'value' => $domain, 'symbol' => ($domain > 0 ? '✓' : '×')],
-                        ['label' => 'Hidden fees', 'value' => $hidden_fees, 'symbol' => ($hidden_fees == 'Yes' ? '✓' : '×')],
+                        ['label' => 'Bandwidth', 'value' => $bandwidth, 'symbol' => ($bandwidth > 0 ? '<i class="fa-regular fa-circle-check"></i>' : '×')],
+                        ['label' => 'Onlinespace', 'value' => $onlinespace, 'symbol' => ($onlinespace > 0 ? '<i class="fa-regular fa-circle-check"></i>' : '×')],
+                        ['label' => 'Support', 'value' => $support, 'symbol' => ($support == 'Yes' ? '<i class="fa-regular fa-circle-check"></i>' : '×')],
+                        ['label' => 'Domain', 'value' => $domain, 'symbol' => ($domain > 0 ? '<i class="fa-regular fa-circle-check"></i>' : '×')],
+                        ['label' => 'Hidden fees', 'value' => $hidden_fees, 'symbol' => ($hidden_fees == 'Yes' ? '<i class="fa-regular fa-circle-check"></i>' : '×')],
                     ];
 
                     // Affichage des fonctionnalités de la formule.

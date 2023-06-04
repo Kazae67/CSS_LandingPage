@@ -823,6 +823,15 @@ button:hover {
     background-color: rgb(94, 174, 248);
 }
 
+/* ICONS VALIDATION */
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
 /*** BLOG ***/
 #blog.section{
     background:white;

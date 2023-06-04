@@ -332,12 +332,12 @@ formatValue($value);
                     } 
                     
                     // Fonctionnalités de la formule.
-                    $features = [ // (7)
-                        ['label' => 'Bandwidth', 'value' => $bandwidth, 'symbol' => ($bandwidth > 0 ? '<i class="fa-regular fa-circle-check"></i>' : '<i class="fa-regular fa-circle-xmark"></i>')],
-                        ['label' => 'Onlinespace', 'value' => $onlinespace, 'symbol' => ($onlinespace > 0 ? '<i class="fa-regular fa-circle-check"></i>' : '<i class="fa-regular fa-circle-xmark"></i>')],
-                        ['label' => 'Support', 'value' => $support, 'symbol' => ($support == 'Yes' ? '<i class="fa-regular fa-circle-check"></i>' : '<i class="fa-regular fa-circle-xmark"></i>')],
-                        ['label' => 'Domain', 'value' => $domain, 'symbol' => ($domain > 0 ? '<i class="fa-regular fa-circle-check"></i>' : '<i class="fa-regular fa-circle-xmark"></i>')],
-                        ['label' => 'Hidden fees', 'value' => $hidden_fees, 'symbol' => ($hidden_fees == 'Yes' ? '<i class="fa-regular fa-circle-check"></i>' : '<i class="fa-regular fa-circle-xmark"></i>')],
+                    $features = [
+                        ['label' => 'Bandwidth', 'value' => $bandwidth, 'symbol' => ($bandwidth > 0 ? '<i class="fas fa-circle fa-check green"></i>' : '<i class="fas fa-circle fa-times red"></i>')],
+                        ['label' => 'Onlinespace', 'value' => $onlinespace, 'symbol' => ($onlinespace > 0 ? '<i class="fas fa-circle fa-check green"></i>' : '<i class="fas fa-circle fa-times red"></i>')],
+                        ['label' => 'Support', 'value' => $support, 'symbol' => ($support == 'Yes' ? '<i class="fas fa-circle fa-check green"></i>' : '<i class="fas fa-circle fa-times red"></i>')],
+                        ['label' => 'Domain', 'value' => $domain, 'symbol' => ($domain > 0 ? '<i class="fas fa-circle fa-check green"></i>' : '<i class="fas fa-circle fa-times red"></i>')],
+                        ['label' => 'Hidden fees', 'value' => $hidden_fees, 'symbol' => ($hidden_fees == 'Yes' ? '<i class="fas fa-circle fa-check green"></i>' : '<i class="fas fa-circle fa-times red"></i>')],
                     ];
 
                     // Affichage des fonctionnalités de la formule.

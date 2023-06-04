@@ -717,6 +717,7 @@ button:hover {
     font-weight:600;
     color: rgba(0, 0, 0, 0.336);
     margin-bottom:50px;
+    text-align:center;
 }
 
 .pricing-container {

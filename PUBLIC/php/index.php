@@ -5,6 +5,8 @@ require_once '../../DB/db-functions.php';
 ajouterCommande(); // Incrémente à chaque clic
 $value = 999; // formatValue() | MB/GB
 formatValue($value);
+
+
 ?>
 
 <!DOCTYPE html>
@@ -71,8 +73,15 @@ formatValue($value);
                         <button type="submit">SUBSCRIBE</button>
                     </div>
                 </form>
+                <?php
+                    // POST Email & Message d'erreur
+                    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['email'])) { // (1)
+                        $email = $_POST['email']; // (2)
+                        ajouterEmail($email); // (3)
+                    }
+                ?>
             </div>
-
+            
             <!-- DROITE -->
             <div class="right-container-home">
                 <img src="../img/illustration.svg" alt="Chat Image">
@@ -357,9 +366,9 @@ formatValue($value);
                 echo "Aucune formule de la base de données pricing trouvée.";
             }
             ?>
-            </div> 
-        </div>
-    </section>
+        </div> 
+    </div>
+</section>
 
 
     <!---------- BLOG ---------->

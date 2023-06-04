@@ -401,7 +401,7 @@ button:hover {
     align-items: center;
     max-width: 1000px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 /* Title H1 */
@@ -424,7 +424,7 @@ button:hover {
 /* Container */
 .container-team{
     display: flex;
-    flex-wrap: wrap;
+
     justify-content: center;
     align-items: center;
 }
@@ -439,7 +439,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 20px;
+    margin: 0 10px;
     margin-bottom: 50px;
 }
 
@@ -452,7 +452,7 @@ button:hover {
 
 /* Member */
 .team-member{
-    margin: 50px;
+    margin: 6px;
 }
 
 /* Number */
@@ -1109,3 +1109,5 @@ button:hover {
         margin-right: 5px;
     }
 }
+
+

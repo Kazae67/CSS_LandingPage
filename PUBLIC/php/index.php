@@ -486,15 +486,19 @@ formatValue($value);
         var logoContainer = document.querySelector('.logo-container');
 
         if (window.scrollY > 0) {
-            navbar.classList.add('fade-out');
+            navbar.classList.add('fade-out', 'hidden');
             socialContainer.classList.add('fade-out');
             logoContainer.classList.add('fade-out');
         } else {
-            navbar.classList.remove('fade-out');
+            navbar.classList.remove('fade-out', 'hidden');
             socialContainer.classList.remove('fade-out');
             logoContainer.classList.remove('fade-out');
+
+            navbar.classList.add('fade-in', 'visible');
+            socialContainer.classList.add('fade-in');
+            logoContainer.classList.add('fade-in');
         }
     });
-</script>
+    </script>
 </body>
 </html>

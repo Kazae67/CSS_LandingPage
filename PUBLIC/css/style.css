@@ -1051,6 +1051,10 @@ button:hover {
     transition: opacity 1s ease;
 }
 
+.hidden {
+    pointer-events: none;
+}
+
 /*** MEDIA QUERIES ***/
 @media screen and (max-width: 768px) {
     .container {

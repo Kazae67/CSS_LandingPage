@@ -27,7 +27,6 @@ formatValue($value);
         <i class="fas fa-arrow-up"></i>
     </button>
 
-
         <!---------- LOGO ---------->
         <div class="logo-container">
             <h1>Kucra</h1>
@@ -469,6 +468,7 @@ formatValue($value);
     <!---------- SCRIPTS ---------->
     <script src="../js/scroll.js"></script>
     
+    <!-- DELETE URL -->
     <script>
         // Fonction pour supprimer les ancres de l'URL
         function resetURL() {
@@ -477,5 +477,24 @@ formatValue($value);
         // Appeler la fonction lors du chargement de la page
         window.addEventListener('load', resetURL);
     </script>
+
+    <!-- DELETE NAV SCROLLING -->
+    <script>
+    window.addEventListener('scroll', function() {
+        var navbar = document.querySelector('.navbar');
+        var socialContainer = document.querySelector('.social-container');
+        var logoContainer = document.querySelector('.logo-container');
+
+        if (window.scrollY > 0) {
+            navbar.classList.add('fade-out');
+            socialContainer.classList.add('fade-out');
+            logoContainer.classList.add('fade-out');
+        } else {
+            navbar.classList.remove('fade-out');
+            socialContainer.classList.remove('fade-out');
+            logoContainer.classList.remove('fade-out');
+        }
+    });
+</script>
 </body>
 </html>

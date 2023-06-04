@@ -1043,6 +1043,14 @@ button:hover {
     background-color: #555;
 }
 
+/*********************************************************************************************************************************/
+
+/* HEADER DELETE TRANSITION */
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
 /*** MEDIA QUERIES ***/
 @media screen and (max-width: 768px) {
     .container {

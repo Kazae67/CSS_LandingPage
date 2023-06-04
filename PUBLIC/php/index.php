@@ -359,7 +359,7 @@ formatValue($value);
                     }
                     echo " : <span id='commande-$formule'>$commande</span></p>";
                     echo "<input type='hidden' name='commande[$formule]' value='$commande'>";
-                    echo "<button class='join-button' type='submit' name='update' value='Update'>Join Now</button>";
+                    echo "<button class='join-button' type='submit' name='update' value='Update' onclick=\"location.href='#pricing'\">Join Now</button>";
                     echo "</form>";
                     echo "</div>";
                     ?>

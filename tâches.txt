@@ -1,4 +1,3 @@
-- Changer l'icone de validation en icon réel pour le visu, et également pour corriger le problème de margin.
 - Arranger les codes et effacer les contenus inutiles.
 - Arranger le message pour ne pas faire décaller l'input email.
 - [FINAL] PASSAGE AU @MEDIA Q.

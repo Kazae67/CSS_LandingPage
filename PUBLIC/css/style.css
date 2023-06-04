@@ -214,6 +214,16 @@ button:hover {
     background-color: #1294b8c4;
 }
 
+/* Message erreur */
+.message-email-notif{
+    position:absolute;
+    font-size:1rem;
+    font-weight:900;
+    color:rgba(231, 22, 22, 0.753);
+    margin-top:10px;
+}
+
+
 /*** FEATURES ***/
 /* Section */
 #features.section {

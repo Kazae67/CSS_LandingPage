@@ -73,6 +73,7 @@ formatValue($value);
                         <button type="submit">SUBSCRIBE</button>
                     </div>
                 </form>
+                <div class="message-email-notif">
                 <?php
                     // POST Email & Message d'erreur
                     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['email'])) { // (1)
@@ -80,6 +81,8 @@ formatValue($value);
                         ajouterEmail($email); // (3)
                     }
                 ?>
+
+                </div>
             </div>
             
             <!-- DROITE -->

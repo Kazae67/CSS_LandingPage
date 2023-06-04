@@ -5,8 +5,6 @@ require_once '../../DB/db-functions.php';
 ajouterCommande(); // Incrémente à chaque clic
 $value = 999; // formatValue() | MB/GB
 formatValue($value);
-
-
 ?>
 
 <!DOCTYPE html>

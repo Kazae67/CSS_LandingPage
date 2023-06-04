@@ -70,7 +70,7 @@ formatValue($value);
                 <form class="email-form" action="" method="post">
                     <div class="email-container">
                         <input type="email" name="email" placeholder="Enter your email" required>
-                        <button type="submit">SUBSCRIBE</button>
+                        <button type="submit" onclick="location.href='#home'">SUBSCRIBE</button>
                     </div>
                 </form>
                 <div class="message-email-notif">

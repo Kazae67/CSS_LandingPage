@@ -70,7 +70,7 @@ formatValue($value);
                 <form class="email-form" action="" method="post">
                     <div class="email-container">
                         <input type="email" name="email" placeholder="Enter your email" required>
-                        <button type="submit" onclick="location.href='#home'">SUBSCRIBE</button>
+                        <button type="submit" onclick="resetURL()" onclick="location.href='#home'">SUBSCRIBE</button>
                     </div>
                 </form>
                 <div class="message-email-notif">
@@ -468,5 +468,14 @@ formatValue($value);
 
     <!---------- SCRIPTS ---------->
     <script src="../js/scroll.js"></script>
+    
+    <script>
+        // Fonction pour supprimer les ancres de l'URL
+        function resetURL() {
+            history.replaceState({}, document.title, window.location.pathname);
+        }
+        // Appeler la fonction lors du chargement de la page
+        window.addEventListener('load', resetURL);
+    </script>
 </body>
 </html>

@@ -22,15 +22,18 @@ formatValue($value);
 <body>
     <header>
 
+
     <!---------- SCROLL TOP ---------->
     <button onclick="scrollToTop()" id="scroll-button">
         <i class="fas fa-arrow-up"></i>
     </button>
 
+
         <!---------- LOGO ---------->
         <div class="logo-container">
             <h1>Kucra</h1>
         </div>
+
 
         <!---------- NAVBAR ---------->
         <nav class="navbar"> 
@@ -45,6 +48,7 @@ formatValue($value);
                 <li><a href="#blog">BLOG</a></li>
                 <li><a href="#team">CONTACT</a></li>
             </ul>
+
 
             <!---------- SOCIAL ICONS ---------->
             <ul class="social-icons social-container">
@@ -80,7 +84,6 @@ formatValue($value);
                         ajouterEmail($email); // (3)
                     }
                 ?>
-
                 </div>
             </div>
             
@@ -370,7 +373,7 @@ formatValue($value);
             ?>
         </div> 
     </div>
-</section>
+    </section>
 
 
     <!---------- BLOG ---------->
@@ -465,40 +468,41 @@ formatValue($value);
     </footer>
 
 
-    <!---------- SCRIPTS ---------->
-    <script src="../js/scroll.js"></script>
+<!---------- SCRIPTS ---------->
+<script src="../js/scroll.js"></script>
     
-    <!-- DELETE URL -->
-    <script>
-        // Fonction pour supprimer les ancres de l'URL
-        function resetURL() {
-            history.replaceState({}, document.title, window.location.pathname);
-        }
-        // Appeler la fonction lors du chargement de la page
-        window.addEventListener('load', resetURL);
-    </script>
+<!-- DELETE URL -->
+<script>
+// Fonction pour supprimer les ancres de l'URL
+function resetURL() {
+    history.replaceState({}, document.title, window.location.pathname);
+}
+// Appeler la fonction lors du chargement de la page
+window.addEventListener('load', resetURL);
+</script>
 
-    <!-- DELETE NAV SCROLLING -->
-    <script>
-    window.addEventListener('scroll', function() {
-        var navbar = document.querySelector('.navbar');
-        var socialContainer = document.querySelector('.social-container');
-        var logoContainer = document.querySelector('.logo-container');
 
-        if (window.scrollY > 0) {
-            navbar.classList.add('fade-out', 'hidden');
-            socialContainer.classList.add('fade-out');
-            logoContainer.classList.add('fade-out');
-        } else {
-            navbar.classList.remove('fade-out', 'hidden');
-            socialContainer.classList.remove('fade-out');
-            logoContainer.classList.remove('fade-out');
+<!-- DELETE NAV SCROLLING -->
+<script>
+window.addEventListener('scroll', function() {
+    var navbar = document.querySelector('.navbar');
+    var socialContainer = document.querySelector('.social-container');
+    var logoContainer = document.querySelector('.logo-container');
 
-            navbar.classList.add('fade-in', 'visible');
-            socialContainer.classList.add('fade-in');
-            logoContainer.classList.add('fade-in');
-        }
-    });
-    </script>
+    if (window.scrollY > 0) {
+        navbar.classList.add('fade-out', 'hidden');
+        socialContainer.classList.add('fade-out');
+        logoContainer.classList.add('fade-out');
+    } else {
+        navbar.classList.remove('fade-out', 'hidden');
+        socialContainer.classList.remove('fade-out');
+        logoContainer.classList.remove('fade-out');
+
+        navbar.classList.add('fade-in', 'visible');
+        socialContainer.classList.add('fade-in');
+        logoContainer.classList.add('fade-in');
+    }
+});
+</script>
 </body>
 </html>

@@ -1051,6 +1051,7 @@ button:hover {
     transition: opacity 1s ease;
 }
 
+/* Rend la navbar inutilisable */
 .hidden {
     pointer-events: none;
 }
